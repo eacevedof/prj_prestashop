@@ -419,9 +419,9 @@ class AdminPatternsControllerCore extends AdminController
         return parent::renderForm();
     }
 
-    public function setMedia()
+    public function setMedia($isNewTheme = false)
     {
-        parent::setMedia();
+        parent::setMedia($isNewTheme);
         $this->addjQueryPlugin('tagify', null, false);
     }
 
