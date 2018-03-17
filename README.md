@@ -40,4 +40,9 @@ Pruebas de prestashop 1.7.3.0
             apc.serializer=php
             extension=php_apc.dll   compatibilidad con el apc
     </pre>
-4 Configuracion 
+4 Configuracion
+    nombre del sitio
+    linea 
+    datos de acceso email//pass
+    configuracion de bd
+    
