@@ -78,3 +78,8 @@ solucion
     43      public function setMedia($isNewTheme = false)
 
 ```
+
+el-nombre-de-la-tienda
+Por razones de seguridad, no te puedes conectar al back-office hasta que tengas:
+eliminado la carpeta /install
+A continuación, accede a esta página mediante la nueva URL (ej.: http://presta:8000/admin462vfm5qp/)
