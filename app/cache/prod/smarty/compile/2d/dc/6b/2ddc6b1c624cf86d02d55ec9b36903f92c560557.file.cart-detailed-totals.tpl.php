@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:26:58
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:34:55
          compiled from "D:\xampp\htdocs\wwwpresta\themes\classic\templates\checkout\_partials\cart-detailed-totals.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15560335765aa388c2bf16b4-23426393%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5328869245aad43afd61ac3-15394284%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2ddc6b1c624cf86d02d55ec9b36903f92c560557' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\themes\\classic\\templates\\checkout\\_partials\\cart-detailed-totals.tpl',
-      1 => 1520666698,
+      1 => 1521288631,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15560335765aa388c2bf16b4-23426393',
+  'nocache_hash' => '5328869245aad43afd61ac3-15394284',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388c2bfed59_38694242',
+  'unifunc' => 'content_5aad43afd786b6_11547372',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388c2bfed59_38694242')) {function content_5aa388c2bfed59_38694242($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43afd786b6_11547372')) {function content_5aad43afd786b6_11547372($_smarty_tpl) {?>
 
 <div class="cart-detailed-totals">
 
@@ -60,8 +60,8 @@ $_smarty_tpl->tpl_vars["subtotal"]->_loop = true;
   
     <?php /*  Call merged included template "checkout/_partials/cart-voucher.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('checkout/_partials/cart-voucher.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '2644125455aa388c2214996-51107957');
-content_5aa388c2267d94_81644488($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('checkout/_partials/cart-voucher.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7732247555aad43af00d8b7-35416173');
+content_5aad43af0a8e73_29264143($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "checkout/_partials/cart-voucher.tpl" */?>
   

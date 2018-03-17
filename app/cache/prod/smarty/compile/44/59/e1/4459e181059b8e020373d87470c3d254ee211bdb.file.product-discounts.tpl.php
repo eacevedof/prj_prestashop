@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:26:57
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:34:53
          compiled from "D:\xampp\htdocs\wwwpresta\themes\classic\templates\catalog\_partials\product-discounts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12619695695aa388c12eaf54-72690414%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3680972225aad43adb57fa2-78545747%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4459e181059b8e020373d87470c3d254ee211bdb' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\themes\\classic\\templates\\catalog\\_partials\\product-discounts.tpl',
-      1 => 1520666698,
+      1 => 1521288630,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12619695695aa388c12eaf54-72690414',
+  'nocache_hash' => '3680972225aad43adb57fa2-78545747',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388c12f4113_86435691',
+  'unifunc' => 'content_5aad43adb60e80_58926840',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388c12f4113_86435691')) {function content_5aa388c12f4113_86435691($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43adb60e80_58926840')) {function content_5aad43adb60e80_58926840($_smarty_tpl) {?>
 <section class="product-discounts">
   <?php if ($_smarty_tpl->tpl_vars['product']->value['quantity_discounts']) {?>
     <h3 class="h6 product-discounts-title"><?php echo smartyTranslate(array('s'=>'Volume discounts','d'=>'Shop.Theme.Catalog'),$_smarty_tpl);?>

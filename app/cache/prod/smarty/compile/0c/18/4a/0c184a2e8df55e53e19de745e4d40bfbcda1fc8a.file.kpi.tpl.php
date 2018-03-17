@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:27:13
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:35:16
          compiled from "D:\xampp\htdocs\wwwpresta\admin\themes\default\template\helpers\kpi\kpi.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10562113955aa388d1123d81-54462460%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10864069665aad43c43e59f1-06249643%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0c184a2e8df55e53e19de745e4d40bfbcda1fc8a' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\admin\\themes\\default\\template\\helpers\\kpi\\kpi.tpl',
-      1 => 1520666689,
+      1 => 1521288670,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10562113955aa388d1123d81-54462460',
+  'nocache_hash' => '10864069665aad43c43e59f1-06249643',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388d113c1e5_60839723',
+  'unifunc' => 'content_5aad43c43fdf08_28603280',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388d113c1e5_60839723')) {function content_5aa388d113c1e5_60839723($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xampp\\htdocs\\wwwpresta\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5aad43c43fdf08_28603280')) {function content_5aad43c43fdf08_28603280($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xampp\\htdocs\\wwwpresta\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
 ?>
 
 <<?php if (isset($_smarty_tpl->tpl_vars['href']->value)&&$_smarty_tpl->tpl_vars['href']->value) {?>a style="display:block" href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['href']->value,'html','UTF-8');?>

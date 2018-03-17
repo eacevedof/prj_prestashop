@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:27:15
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:35:19
          compiled from "D:\xampp\htdocs\wwwpresta\admin\themes\default\template\helpers\required_fields.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5670194895aa388d3669381-25597926%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:309334495aad43c70b03b6-10229565%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e2e0022686bce04e45e3c3fed6fb8fa6292d89c2' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\admin\\themes\\default\\template\\helpers\\required_fields.tpl',
-      1 => 1520666689,
+      1 => 1521288644,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5670194895aa388d3669381-25597926',
+  'nocache_hash' => '309334495aad43c70b03b6-10229565',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388d3671388_60496316',
+  'unifunc' => 'content_5aad43c70bc1e8_18899402',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388d3671388_60496316')) {function content_5aa388d3671388_60496316($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43c70bc1e8_18899402')) {function content_5aad43c70bc1e8_18899402($_smarty_tpl) {?>
 <a class="btn btn-default" href="#" onclick="if ($('.requiredFieldsParameters:visible').length == 0) $('.requiredFieldsParameters').slideDown('slow'); else $('.requiredFieldsParameters').slideUp('slow'); return false;">
 	<i class="icon-plus-sign"></i> <?php echo smartyTranslate(array('s'=>'Set required fields for this section'),$_smarty_tpl);?>
 

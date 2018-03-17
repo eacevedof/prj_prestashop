@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:27:10
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:35:13
          compiled from "D:\xampp\htdocs\wwwpresta\admin\themes\default\template\error.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15025273225aa388ce9f3971-77636848%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11711399415aad43c11963e0-72109113%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f0594099063670b2b6461739c89df1a9e9bb4c30' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\admin\\themes\\default\\template\\error.tpl',
-      1 => 1520666687,
+      1 => 1521288620,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15025273225aa388ce9f3971-77636848',
+  'nocache_hash' => '11711399415aad43c11963e0-72109113',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388ce9fa411_92499270',
+  'unifunc' => 'content_5aad43c119d041_35713082',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388ce9fa411_92499270')) {function content_5aa388ce9fa411_92499270($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43c119d041_35713082')) {function content_5aad43c119d041_35713082($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['php_errors']->value)&&count($_smarty_tpl->tpl_vars['php_errors']->value)) {?>
 <div class="bootstrap">
 	<div id="error-modal" class="modal fade">

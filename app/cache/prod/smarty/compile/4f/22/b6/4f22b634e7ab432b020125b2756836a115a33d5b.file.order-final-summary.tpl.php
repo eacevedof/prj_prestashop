@@ -1,29 +1,29 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:26:59
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:34:56
          compiled from "D:\xampp\htdocs\wwwpresta\themes\classic\templates\checkout\_partials\order-final-summary.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12974996085aa388c37ddff3-78394293%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19638815655aad43b0b5cd58-06579684%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4f22b634e7ab432b020125b2756836a115a33d5b' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\themes\\classic\\templates\\checkout\\_partials\\order-final-summary.tpl',
-      1 => 1520666698,
+      1 => 1521288631,
       2 => 'file',
     ),
     '89a092d29dbd3490f67ccd1b60e080b29112ee4e' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\themes\\classic\\templates\\checkout\\_partials\\order-confirmation-table.tpl',
-      1 => 1520666698,
+      1 => 1521288631,
       2 => 'file',
     ),
     '20d16a2961c9cf14e4e071c504dc85e73bfa7db9' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\themes\\classic\\templates\\checkout\\_partials\\order-final-summary-table.tpl',
-      1 => 1520666698,
+      1 => 1521288631,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12974996085aa388c37ddff3-78394293',
+  'nocache_hash' => '19638815655aad43b0b5cd58-06579684',
   'function' => 
   array (
   ),
@@ -35,9 +35,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388c3804664_96694729',
+  'unifunc' => 'content_5aad43b0b90d56_40973712',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388c3804664_96694729')) {function content_5aa388c3804664_96694729($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43b0b90d56_40973712')) {function content_5aad43b0b90d56_40973712($_smarty_tpl) {?>
 <section id="order-summary-content" class="page-content page-order-confirmation">
   <div class="row">
     <div class="col-md-12">
@@ -122,17 +122,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
       <?php /*  Call merged included template "checkout/_partials/order-final-summary-table.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('checkout/_partials/order-final-summary-table.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('products'=>$_smarty_tpl->tpl_vars['cart']->value['products'],'products_count'=>$_smarty_tpl->tpl_vars['cart']->value['products_count'],'subtotals'=>$_smarty_tpl->tpl_vars['cart']->value['subtotals'],'totals'=>$_smarty_tpl->tpl_vars['cart']->value['totals'],'labels'=>$_smarty_tpl->tpl_vars['cart']->value['labels'],'add_product_link'=>true), 0, '12974996085aa388c37ddff3-78394293');
-content_5aa388c37eafd1_36746177($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('checkout/_partials/order-final-summary-table.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('products'=>$_smarty_tpl->tpl_vars['cart']->value['products'],'products_count'=>$_smarty_tpl->tpl_vars['cart']->value['products_count'],'subtotals'=>$_smarty_tpl->tpl_vars['cart']->value['subtotals'],'totals'=>$_smarty_tpl->tpl_vars['cart']->value['totals'],'labels'=>$_smarty_tpl->tpl_vars['cart']->value['labels'],'add_product_link'=>true), 0, '19638815655aad43b0b5cd58-06579684');
+content_5aad43b0b6b793_49540464($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "checkout/_partials/order-final-summary-table.tpl" */?>
     
   </div>
 </section>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:26:59
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:34:56
          compiled from "D:\xampp\htdocs\wwwpresta\themes\classic\templates\checkout\_partials\order-final-summary-table.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5aa388c37eafd1_36746177')) {function content_5aa388c37eafd1_36746177($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43b0b6b793_49540464')) {function content_5aad43b0b6b793_49540464($_smarty_tpl) {?>
 <div id="order-items" class="col-md-12">
 
   

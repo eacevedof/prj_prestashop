@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:27:03
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:35:02
          compiled from "D:\xampp\htdocs\wwwpresta\admin\themes\default\template\controllers\carrier_wizard\logo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:21423416825aa388c73a8d38-93529901%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19739310715aad43b6efb3e4-18400360%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e0424c5406fea19b80765ddd61b8ab8717c7bcf1' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\admin\\themes\\default\\template\\controllers\\carrier_wizard\\logo.tpl',
-      1 => 1520666687,
+      1 => 1521288668,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21423416825aa388c73a8d38-93529901',
+  'nocache_hash' => '19739310715aad43b6efb3e4-18400360',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388c73af612_90357817',
+  'unifunc' => 'content_5aad43b6f006e8_69634772',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388c73af612_90357817')) {function content_5aa388c73af612_90357817($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43b6f006e8_69634772')) {function content_5aad43b6f006e8_69634772($_smarty_tpl) {?>
 
 <div id="carrier_logo_block" class="panel">
 	<div class="panel-heading">

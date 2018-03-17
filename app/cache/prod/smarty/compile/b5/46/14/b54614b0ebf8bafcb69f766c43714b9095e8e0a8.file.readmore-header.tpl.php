@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:27:07
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:35:08
          compiled from "D:\xampp\htdocs\wwwpresta\admin\themes\default\template\controllers\modules\readmore-header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14032587495aa388cb146881-20571258%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2751675365aad43bc2f61b0-49842431%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b54614b0ebf8bafcb69f766c43714b9095e8e0a8' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\admin\\themes\\default\\template\\controllers\\modules\\readmore-header.tpl',
-      1 => 1520666688,
+      1 => 1521288668,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14032587495aa388cb146881-20571258',
+  'nocache_hash' => '2751675365aad43bc2f61b0-49842431',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388cb149324_95806524',
+  'unifunc' => 'content_5aad43bc2f9995_60734319',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388cb149324_95806524')) {function content_5aa388cb149324_95806524($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43bc2f9995_60734319')) {function content_5aad43bc2f9995_60734319($_smarty_tpl) {?>
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 <h3 class="modal-title">
 	<div class="module_name">

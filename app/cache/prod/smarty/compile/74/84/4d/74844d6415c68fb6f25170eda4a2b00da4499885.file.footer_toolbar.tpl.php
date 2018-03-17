@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:27:10
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:35:13
          compiled from "D:\xampp\htdocs\wwwpresta\admin\themes\default\template\footer_toolbar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15215862145aa388ceb85d96-75479550%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:7683192015aad43c137c864-21491989%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '74844d6415c68fb6f25170eda4a2b00da4499885' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\admin\\themes\\default\\template\\footer_toolbar.tpl',
-      1 => 1520666687,
+      1 => 1521288620,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15215862145aa388ceb85d96-75479550',
+  'nocache_hash' => '7683192015aad43c137c864-21491989',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388ceb9d190_00628016',
+  'unifunc' => 'content_5aad43c13995d1_26005256',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388ceb9d190_00628016')) {function content_5aa388ceb9d190_00628016($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43c13995d1_26005256')) {function content_5aad43c13995d1_26005256($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['show_toolbar']->value) {?>
 <div class="panel-footer" id="toolbar-footer">
 	<?php  $_smarty_tpl->tpl_vars['btn'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['btn']->_loop = false;

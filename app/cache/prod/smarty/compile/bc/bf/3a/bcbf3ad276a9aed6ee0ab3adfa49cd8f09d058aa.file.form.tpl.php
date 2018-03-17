@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-10 08:27:03
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-17 17:35:03
          compiled from "D:\xampp\htdocs\wwwpresta\admin\themes\default\template\controllers\cart_rules\form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7689436475aa388c7b056e4-23480522%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:6313912085aad43b78a95f1-41172561%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'bcbf3ad276a9aed6ee0ab3adfa49cd8f09d058aa' => 
     array (
       0 => 'D:\\xampp\\htdocs\\wwwpresta\\admin\\themes\\default\\template\\controllers\\cart_rules\\form.tpl',
-      1 => 1520666687,
+      1 => 1521288668,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7689436475aa388c7b056e4-23480522',
+  'nocache_hash' => '6313912085aad43b78a95f1-41172561',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa388c7b18f67_98512343',
+  'unifunc' => 'content_5aad43b78c4e17_56712502',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa388c7b18f67_98512343')) {function content_5aa388c7b18f67_98512343($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aad43b78c4e17_56712502')) {function content_5aad43b78c4e17_56712502($_smarty_tpl) {?>
 <div class="panel">
 	<h3><i class="icon-tag"></i> <?php echo smartyTranslate(array('s'=>'Cart rule','d'=>'Admin.Catalog.Feature'),$_smarty_tpl);?>
 </h3>
