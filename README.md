@@ -46,3 +46,35 @@ Pruebas de prestashop 1.7.3.0
     datos de acceso email//pass
     configuracion de bd
     
+5 Errores
+```
+[18-Mar-2018 00:32:32 Europe/Madrid] PHP Fatal error:  Declaration of AdminLoginControllerCore::setMedia() must be compatible with AdminControllerCore::setMedia($isNewTheme = false) in D:\xampp\htdocs\wwwpresta\controllers\admin\AdminLoginController.php on line 394
+[18-Mar-2018 00:32:32 Europe/Madrid] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalErrorException: Compile Error: Declaration of AdminLoginControllerCore::setMedia() must be compatible with AdminControllerCore::setMedia($isNewTheme = false) in D:\xampp\htdocs\wwwpresta\controllers\admin\AdminLoginController.php:394
+Stack trace:
+#0 {main}
+
+Next LogicException: Request stack is empty in D:\xampp\htdocs\wwwpresta\app\bootstrap.php.cache:3231
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\HttpKernel->terminateWithException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#1 D:\xampp\htdocs\wwwpresta\vendor\symfony\symfony\src\Symfony\Component\Debug\ErrorHandler.php(606): call_user_func(Array, Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 D:\xampp\htdocs\wwwpresta\vendor\symfony\symfony\src\Symfony\Component\Debug\ErrorHandler.php(668): Symfony\Component\Debug\ErrorHandler->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 [internal function]: Symfony\Compo in D:\xampp\htdocs\wwwpresta\app\bootstrap.php.cache on line 3231
+[18-Mar-2018 00:33:45 Europe/Madrid] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\wwwpresta\classes\controller\AdminController.php on line 569
+[18-Mar-2018 00:33:46 Europe/Madrid] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\wwwpresta\classes\controller\AdminController.php on line 569
+[18-Mar-2018 00:33:47 Europe/Madrid] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\wwwpresta\classes\controller\AdminController.php on line 3517
+[18-Mar-2018 00:36:55 Europe/Madrid] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\wwwpresta\classes\controller\AdminController.php on line 3518
+
+solucion
+
+\classes\controller\AdminController.php 
+            //if (is_array($tabs) || count($tabs)) {
+    3518    //if (!count($filter_modules_list)) {
+
+\classes\ObjectModel.php:
+    520     if (count($this->id_shop_list) > 0 && is_array($this->id_shop_list)) {
+    686     if (count($this->id_shop_list) > 0 && is_array($this->id_shop_list)) {
+
+\controllers\admin\AdminDashboardController.php
+    43      public function setMedia($isNewTheme = false)
+
+```
