@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>PrestaShop Day Madrid 2018, el evento para todos los profesionales del eCommerce</title>
+    <link>https://www.prestashop.com/es/blog/ievento-prestashop-day-madrid-el-19-de-abril-de-2018</link>
+    <description>En PrestaShop estamos de enhorabuena, ya que te anunciamos que el próximo 19 de abril de 2018, tendrá lugar la tercera edición del PrestaShop Day, de nue</description>
+     <pubDate>Thu, 15 Mar 2018 09:46:02 +0100</pubDate>
+ <dc:creator>Marine</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/ievento-prestashop-day-madrid-el-19-de-abril-de-2018</guid>
+  </item>
+  <item>
+    <title>¿Cómo crear una ficha de producto optimizada para tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/ficha-de-producto</link>
+    <description>Como responsable de tu propia tienda en Internet, sabes que debes tener optimizadas cada una de las URL&#039;s de tu web.</description>
+     <pubDate>Mon, 12 Mar 2018 09:22:47 +0100</pubDate>
+ <dc:creator>Susana Pavón</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/ficha-de-producto</guid>
+  </item>
+  <item>
+    <title>¿Qué es Dropshipping? Módulos PrestaShop para Dropshipping</title>
+    <link>https://www.prestashop.com/es/blog/que-es-dropshipping</link>
+    <description>La búsqueda de negocios rentables y el auge de las ventas online han hecho que el Dropshipping sea un modelo de ventas que, a día de hoy, esté ganando cada vez más adeptos.</description>
+     <pubDate>Wed, 07 Mar 2018 18:55:32 +0100</pubDate>
+ <dc:creator>Susana Albares</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/que-es-dropshipping</guid>
+  </item>
+  <item>
+    <title>¡Ya está disponible PrestaShop 1.7.3.0!</title>
+    <link>https://www.prestashop.com/es/blog/ya-esta-disponible-prestashop-1-7-3-0-1</link>
+    <description>Prestashop: 1.7.3.0: más fácil, más rápido y más internacional.</description>
+     <pubDate>Wed, 07 Mar 2018 18:52:32 +0100</pubDate>
+ <dc:creator>camille.teissier</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/ya-esta-disponible-prestashop-1-7-3-0-1</guid>
+  </item>
+  <item>
+    <title>¿Cómo crear un logo que potencie la imagen de tu tienda online?</title>
+    <link>https://www.prestashop.com/es/blog/como-crear-un-logotipo-llamativo-y-la-imagen-de-tu-tienda-online</link>
+    <description>Crear un logo que consiga representar los objetivos y valores de una marca es la carta de presentación de toda empresa, ya sea un eCommerce u otro tipo de negocio.</description>
+     <pubDate>Mon, 05 Mar 2018 11:43:00 +0100</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-crear-un-logotipo-llamativo-y-la-imagen-de-tu-tienda-online</guid>
+  </item>
+  <item>
+    <title>¿Cómo aplicar el Social Selling dentro de la estrategia de un eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/social-selling</link>
+    <description>La idea que más me gusta relacionar con el Social Selling, el concepto del que te quiero hablar hoy, es que es la metodología que sustituye a la clásica &quot;puerta fría&quot;.</description>
+     <pubDate>Mon, 05 Mar 2018 08:35:19 +0100</pubDate>
+ <dc:creator>Sonia Duro</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/social-selling</guid>
+  </item>
+  <item>
+    <title>¿Qué es un blog y cómo puedo integrarlo dentro de mi tienda PrestaShop?</title>
+    <link>https://www.prestashop.com/es/blog/que-es-un-blog</link>
+    <description>¿Aún no sabes qué es un blog ni qué beneficios puede aportar tener uno dentro de tu tienda online?</description>
+     <pubDate>Tue, 27 Feb 2018 10:32:29 +0100</pubDate>
+ <dc:creator>Vanessa García Barahona</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/que-es-un-blog</guid>
+  </item>
+  <item>
+    <title>¿Qué son los enlaces dofollow y nofollow y cómo afectan al SEO?</title>
+    <link>https://www.prestashop.com/es/blog/enlaces-dofollow-nofollow</link>
+    <description>Cuando hablamos de los enlaces en el SEO, siempre hay dudas al hablar de las diferencias entre enlaces “do follow” y “no follow”.</description>
+     <pubDate>Fri, 23 Feb 2018 10:07:47 +0100</pubDate>
+ <dc:creator>Rafa_Sospedra</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/enlaces-dofollow-nofollow</guid>
+  </item>
+  <item>
+    <title>Los 10 Mejores módulos SEO para mejorar el posicionamiento de tu tienda PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/modulos-seo</link>
+    <description>¿Existen módulos SEO que te ayuden a mejorar el posicionamiento de tu eCommerce?
+Claro que sí, precisamente éste es el tema del que quiero hablarte hoy en el blog de PrestaShop.</description>
+     <pubDate>Fri, 23 Feb 2018 08:23:10 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-seo</guid>
+  </item>
+  <item>
+    <title>¿Qué es el Marketing de Influencers y cómo integrarlo en la estrategia de tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/marketing-de-influencers</link>
+    <description>Hoy en día, el marketing de influencers es una de las mejores técnicas que te pueden ayudar a llegar a nuevos clientes.</description>
+     <pubDate>Mon, 19 Feb 2018 12:31:41 +0100</pubDate>
+ <dc:creator>María Martín Parrilla</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/marketing-de-influencers</guid>
+  </item>
+  </channel>
+</rss>
