@@ -1,5 +1,5 @@
 <?php
-//::file:: \index.php 1.0.2
+//::file:: \index.php 1.0.3
 /**
  * 2007-2017 PrestaShop
  *
@@ -45,9 +45,10 @@ function userErrorHandler($errno,$errmsg,$filename,$linenum,$vars)
     1024 => "User Notice"); 
     $errlevel=$errortype[$errno]; 
 
-    //Write error to log file (CSV format) 
     $errfile=fopen("php_errors.log","a"); 
-    fputs($errfile,"$time ($errlevel)\n $filename:$linenum\n $errmsg\n"); 
+    //$sContent = "$time ($errlevel)\n $filename:$linenum\n $errmsg\n";
+    $sContent = "error $errlevel";
+    fputs($errfile,$sContent); 
     fclose($errfile);
 
     if($errno!=2 && $errno!=8)
