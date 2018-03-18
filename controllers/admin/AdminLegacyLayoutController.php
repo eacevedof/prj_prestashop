@@ -57,7 +57,7 @@ class AdminLegacyLayoutControllerCore extends AdminController
         parent::setMedia(true);
     }
 
-    public function viewAccess()
+    public function viewAccess($disable = false)
     {
         return true;
     }
