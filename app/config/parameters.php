@@ -1,5 +1,5 @@
 <?php 
-//::file:: \app\config\parameters.php 1.0.0
+//::file:: \app\config\parameters.php 1.0.1
 return array (
     'parameters' =>
     array (
@@ -10,6 +10,15 @@ return array (
         'database_password' => '',
         'database_prefix' => 'ps_',     
         'database_engine' => 'InnoDB',
+/* 
+//production
+        'database_host' => 'xxx.db.dom.com',
+        'database_port' => '3306',
+        'database_name' => 'dbPrestasShop',
+        'database_user' => 'dboPresta',
+        'database_password' => '*****',
+        'database_prefix' => 'ps_',
+*/         
         'mailer_transport' => 'smtp',
         'mailer_host' => '127.0.0.1',
         'mailer_user' => NULL,
