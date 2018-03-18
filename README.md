@@ -83,3 +83,19 @@ el-nombre-de-la-tienda
 Por razones de seguridad, no te puedes conectar al back-office hasta que tengas:
 eliminado la carpeta /install
 A continuación, accede a esta página mediante la nueva URL (ej.: http://presta:8000/admin462vfm5qp/)
+
+### Indice tutorial Prestashop 1.7.3
+
+    1.  [Repasando despues de la instalacion](https://youtu.be/m99RwBiucP4?t=1895)
+    2.  [Distribucion](https://youtu.be/m99RwBiucP4?t=1706)
+    3.  [Distribucion - Zonas](https://youtu.be/m99RwBiucP4?t=1810)
+    4.  [Hooks](https://youtu.be/m99RwBiucP4?t=1884)
+    5.  [Personalizar/Módulos/Selección] (https://youtu.be/m99RwBiucP4?t=1969)
+        5.1 [Módulos instalados](https://youtu.be/m99RwBiucP4?t=2221)
+        5.2 [Módulos notificaciones](https://youtu.be/m99RwBiucP4?t=2310)
+        5.3 [Módulos catalogo](https://youtu.be/m99RwBiucP4?t=2346)
+    6.  [Personalizar/Diseño/Tema y Logotipo](https://youtu.be/m99RwBiucP4?t=2362)
+
+## Despliegue en produccion
+    [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
+    [Pasar localhost a prod](https://www.youtube.com/watch?v=1UZx3qqFVG4)
