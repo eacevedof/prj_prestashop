@@ -105,15 +105,11 @@ FROM ps_configuration
 WHERE 1=1
 AND VALUE LIKE '%presta:8000%'
 
+-- unicamente con este cambio no funciona
 UPDATE ps_configuration
 SET VALUE='dominio.com'
 WHERE 1=1
 AND NAME IN ('PS_SHOP_DOMAIN','PS_SHOP_DOMAIN_SSL')
-
-SELECT * FROM ps_connections_source 
-WHERE 1=1
-AND http_referer LIKE '%presta:8000%'
-OR request_uri LIKE '%presta:8000%'
 
 SELECT * 
 FROM ps_shop_url
@@ -121,7 +117,15 @@ WHERE 1=1
 AND domain LIKE '%presta:8000%'
 OR domain_ssl LIKE '%presta:8000%'
 
-UPDATE ps_ps_shop_url SET domain='dominio.com' WHERE 1=1 AND domain='presta:8000'
-UPDATE ps_ps_shop_url SET domain_ssl='dominio.com' WHERE 1=1 AND domain_ssl='presta:8000'
+-- con este cambio ya funciona en produccion
+UPDATE ps_shop_url SET domain='domain.com' WHERE 1=1 AND domain='presta:8000'
+UPDATE ps_shop_url SET domain_ssl='domain.com' WHERE 1=1 AND domain_ssl='presta:8000'
 
+-- historial de conexiones
+TRUNCATE TABLE ps_connections_source 
+
+SELECT * FROM ps_connections_source 
+WHERE 1=1
+AND http_referer LIKE '%presta:8000%'
+OR request_uri LIKE '%presta:8000%'
 ```
