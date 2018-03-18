@@ -1,4 +1,6 @@
-<?php return array (
+<?php 
+//\app\config\parameters.php 1.0.0
+return array (
   'parameters' => 
   array (
     'database_host' => '127.0.0.1',
