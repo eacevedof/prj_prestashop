@@ -93,7 +93,7 @@ abstract class ControllerCore
     /**
      * Check if the current user/visitor has valid view permissions
      */
-    abstract public function viewAccess();
+    abstract public function viewAccess($disable = false);
 
     /**
      * Initialize the page

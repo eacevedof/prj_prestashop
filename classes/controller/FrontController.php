@@ -230,7 +230,7 @@ class FrontControllerCore extends Controller
      *
      * @return bool
      */
-    public function viewAccess()
+    public function viewAccess($disable = false)
     {
         return true;
     }
