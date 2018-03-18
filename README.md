@@ -100,6 +100,10 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
     [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
     [Pasar localhost a prod](https://www.youtube.com/watch?v=1UZx3qqFVG4)
 ```sql
+
+-- tablas: ps_configuration
+-- ps_shop_url
+
 SELECT * 
 FROM ps_configuration
 WHERE 1=1
