@@ -99,3 +99,29 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
 ## Despliegue en produccion
     [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
     [Pasar localhost a prod](https://www.youtube.com/watch?v=1UZx3qqFVG4)
+```sql
+SELECT * 
+FROM ps_configuration
+WHERE 1=1
+AND VALUE LIKE '%presta:8000%'
+
+UPDATE ps_configuration
+SET VALUE='dominio.com'
+WHERE 1=1
+AND NAME IN ('PS_SHOP_DOMAIN','PS_SHOP_DOMAIN_SSL')
+
+SELECT * FROM ps_connections_source 
+WHERE 1=1
+AND http_referer LIKE '%presta:8000%'
+OR request_uri LIKE '%presta:8000%'
+
+SELECT * 
+FROM ps_shop_url
+WHERE 1=1
+AND domain LIKE '%presta:8000%'
+OR domain_ssl LIKE '%presta:8000%'
+
+UPDATE ps_ps_shop_url SET domain='dominio.com' WHERE 1=1 AND domain='presta:8000'
+UPDATE ps_ps_shop_url SET domain_ssl='dominio.com' WHERE 1=1 AND domain_ssl='presta:8000'
+
+```
