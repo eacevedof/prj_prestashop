@@ -7,7 +7,7 @@ Pruebas de prestashop 1.7.3.0
 3 Acuerdos de licencia
     Revisa compatibilidad
     crea un archivo: app/cache/prod/cacert.pem
-    <pre>
+    ```
     Install and enable the intl extension (used for validators).
         Estension para internacionalizacion
     Install and/or enable a PHP accelerator (highly recommended).
@@ -39,7 +39,7 @@ Pruebas de prestashop 1.7.3.0
             apc.enable_cli=1
             apc.serializer=php
             extension=php_apc.dll   compatibilidad con el apc
-    </pre>
+    ```
 4 Configuracion
     nombre del sitio
     linea 
@@ -64,7 +64,7 @@ Stack trace:
 [18-Mar-2018 00:33:47 Europe/Madrid] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\wwwpresta\classes\controller\AdminController.php on line 3517
 [18-Mar-2018 00:36:55 Europe/Madrid] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\wwwpresta\classes\controller\AdminController.php on line 3518
 
-solucion
+###solucion###
 
 \classes\controller\AdminController.php 
             //if (is_array($tabs) || count($tabs)) {
@@ -76,7 +76,6 @@ solucion
 
 \controllers\admin\AdminDashboardController.php
     43      public function setMedia($isNewTheme = false)
-
 ```
 
 el-nombre-de-la-tienda
@@ -86,19 +85,20 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
 
 ### Indice tutorial Prestashop 1.7.3
 
-    1.  [Repasando despues de la instalacion](https://youtu.be/m99RwBiucP4?t=1895)
-    2.  [Distribucion](https://youtu.be/m99RwBiucP4?t=1706)
-    3.  [Distribucion - Zonas](https://youtu.be/m99RwBiucP4?t=1810)
-    4.  [Hooks](https://youtu.be/m99RwBiucP4?t=1884)
-    5.  [Personalizar/Módulos/Selección] (https://youtu.be/m99RwBiucP4?t=1969)
-        5.1 [Módulos instalados](https://youtu.be/m99RwBiucP4?t=2221)
-        5.2 [Módulos notificaciones](https://youtu.be/m99RwBiucP4?t=2310)
-        5.3 [Módulos catalogo](https://youtu.be/m99RwBiucP4?t=2346)
-    6.  [Personalizar/Diseño/Tema y Logotipo](https://youtu.be/m99RwBiucP4?t=2362)
+1. [Repasando despues de la instalacion](https://youtu.be/m99RwBiucP4?t=1895)
+2. [Distribucion](https://youtu.be/m99RwBiucP4?t=1706)
+3. [Distribucion - Zonas](https://youtu.be/m99RwBiucP4?t=1810)
+4. [Hooks](https://youtu.be/m99RwBiucP4?t=1884)
+5. [Personalizar/Módulos/Selección] (https://youtu.be/m99RwBiucP4?t=1969)
+    5.1 [Módulos instalados](https://youtu.be/m99RwBiucP4?t=2221)
+    5.2 [Módulos notificaciones](https://youtu.be/m99RwBiucP4?t=2310)
+    5.3 [Módulos catalogo](https://youtu.be/m99RwBiucP4?t=2346)
+6. [Personalizar/Diseño/Tema y Logotipo](https://youtu.be/m99RwBiucP4?t=2362)
 
 ## Despliegue en produccion
-    [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
-    [Pasar localhost a prod](https://www.youtube.com/watch?v=1UZx3qqFVG4)
+- [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
+- [Pasar localhost a prod](https://www.youtube.com/watch?v=1UZx3qqFVG4)
+
 ```sql
 
 -- tablas: ps_configuration
