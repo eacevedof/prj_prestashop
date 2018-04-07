@@ -365,7 +365,9 @@ abstract class DbCore
         if ($sql instanceof DbQuery) {
             $sql = $sql->build();
         }
-
+        //@eaf
+        if(defined("TFW_DEBUG") && TFW_DEBUG==1)
+            $_POST["componentdebug"][]["sql"] = $sql;
         $this->result = $this->_query($sql);
 
         if (!$this->result && $this->getNumberError() == 2006) {
@@ -529,7 +531,7 @@ abstract class DbCore
         }
 
         $this->result = false;
-        $sql = 'DELETE FROM `'.bqSQL($table).'`'.($where ? ' WHERE '.$where : '').($limit ? ' LIMIT '.(int)$limit : '');
+        $sql = 'DELETE FROM `'.bqSQL($table).'`'.($where ? ' WHERE '.$where : '').($limit ? ' LIMIT '.(int)$limit : '');    
         $res = $this->query($sql);
         if ($use_cache && $this->is_cache_enabled) {
             Cache::getInstance()->deleteQuery($sql);
@@ -550,7 +552,6 @@ abstract class DbCore
         if ($sql instanceof DbQuery) {
             $sql = $sql->build();
         }
-
         $this->result = $this->query($sql);
         if ($use_cache && $this->is_cache_enabled) {
             Cache::getInstance()->deleteQuery($sql);
