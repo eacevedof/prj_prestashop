@@ -2,7 +2,7 @@
 /**
 * @author Eduardo Acevedo Farje.
 * @link www.eduardoaf.com
-* @version 1.2.5
+* @version 1.2.5.1
 * @name ComponentDebug 
 * @file component_debug.php
 * @date 06-08-2017 11:23 (SPAIN)
@@ -33,7 +33,7 @@ class ComponentDebug
         self::$_isIncludedOn = $isIncludedOn;
     }
 
-    public static function set_sql($sSQL,$iCount,$fTime="")
+    public static function set_sql($sSQL,$iCount=00,$fTime="")
     {
         if(self::$_isSqlsOn)
             self::$arSqls[] = array("sql"=>$sSQL,"count"=>$iCount,"time"=>$fTime);
@@ -165,6 +165,11 @@ class ComponentDebug
             $arArray = array_merge($_SESSION["componentdebug"],$arArray);
             $_SESSION["componentdebug"] = NULL;
         }
+        if(isset($_POST["componentdebug"]) && is_array($_POST["componentdebug"]))
+        {
+            $arArray = array_merge($_POST["componentdebug"],$arArray);
+            $_POST["componentdebug"] = NULL;
+        }        
         
         $sHtmlTable = "";
         if(!empty($arArray))
@@ -176,7 +181,7 @@ class ComponentDebug
             {
                 $isError=0;
                 //bug($arRow);
-                if($arRow["count"]=="-1")
+                if(isset($arRow["count"]) && $arRow["count"]=="-1")
                 { 
                     $isError=1;
                     $arRow["count"]="ERROR";

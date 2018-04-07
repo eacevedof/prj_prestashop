@@ -1,5 +1,6 @@
 <?php
-//@eaf: vendor\theframework\bootstrap.php 1.0.0 06/04/2018
+//@eaf: vendor\theframework\bootstrap.php 1.0.1 06/04/2018
+define("TFW_DEBUG",1);
 include_once "functions/functions_boot.php";
 include_once "functions/functions_cache.php";
 include_once "functions/functions_debug.php";
