@@ -24,6 +24,8 @@
  * @license   https://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  */
+
+//@eaf
 error_reporting(0); 
 $old_error_handler = set_error_handler("userErrorHandler"); 
 
@@ -59,5 +61,14 @@ function userErrorHandler($errno,$errmsg,$filename,$linenum,$vars)
         die("A fatal error has occurred. Script execution has been aborted"); 
 }//userErrorHandler
 
+include_once dirname(__FILE__)."/vendor/theframework/bootstrap.php";
 require(dirname(__FILE__).'/config/config.inc.php');
 Dispatcher::getInstance()->dispatch();
+
+//@eaf
+use TheFramework\Components\ComponentDebug;
+if(class_exists("TheFramework\Components\ComponentDebug") && defined("TFW_DEBUG") && TFW_DEBUG==1)
+{
+    ComponentDebug::config(1);
+    ComponentDebug::get_sqls_in_html_table();
+}
