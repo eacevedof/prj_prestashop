@@ -40,6 +40,7 @@ if (!defined('PS_ADMIN_DIR')) {
     define('PS_ADMIN_DIR', _PS_ADMIN_DIR_);
 }
 
+require(_PS_ADMIN_DIR_.'/../vendor/theframework/bootstrap.php');
 require(_PS_ADMIN_DIR_.'/../config/config.inc.php');
 
 //small test to clear cache after upgrade
@@ -94,4 +95,12 @@ try {
     }
     // Prepare and trigger LEGACY admin dispatcher
     Dispatcher::getInstance()->dispatch();
+}
+
+//@eaf
+use TheFramework\Components\ComponentDebug;
+if(class_exists("TheFramework\Components\ComponentDebug") && defined("TFW_DEBUG") && TFW_DEBUG==1)
+{
+    ComponentDebug::config(1);
+    ComponentDebug::get_sqls_in_html_table();
 }
