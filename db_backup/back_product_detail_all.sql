@@ -1,3 +1,4 @@
+-- back_product_detail_all.sql
 -- 0
 /*
 id_shop	uri	domain	main
@@ -2089,212 +2090,407 @@ ORDER BY hm.`position`
 SELECT * 
 FROM `ps_hook_alias`
 
--- 23
+-- 25
 /*
-
++-----------------------+
+| id_authorization_role |
++-----------------------+
+|                   302 |
++-----------------------+
 */
-SELECT h.`name` as hook, m.`id_module`, h.`id_hook`, m.`name` as module 
-FROM `ps_module` m 
-INNER JOIN `ps_hook_module` `hm` ON hm.`id_module` = m.`id_module` 
-INNER JOIN `ps_hook` `h` ON hm.`id_hook` = h.`id_hook` 
-WHERE (h.`name` != "paymentOptions")
-AND (hm.`id_shop` = 1) 
-GROUP BY hm.id_hook, hm.id_module 
-ORDER BY hm.`position`
-
-24
-SELECT h.`name` as hook, m.`id_module`, h.`id_hook`, m.`name` as module 
-FROM `ps_module` m 
-INNER JOIN ps_module_shop module_shop ON (module_shop.id_module = m.id_module
-AND module_shop.id_shop = 1
-AND module_shop.enable_device & 1) 
-INNER JOIN `ps_module_shop` `ms` ON ms.`id_module` = m.`id_module` 
-INNER JOIN `ps_hook_module` `hm` ON hm.`id_module` = m.`id_module` 
-INNER JOIN `ps_hook` `h` ON hm.`id_hook` = h.`id_hook` 
-WHERE (hm.`id_shop` = 1) 
-GROUP BY hm.id_hook, hm.id_module 
-ORDER BY hm.`position`
-25
 SELECT t.`id_authorization_role` 
 FROM `ps_authorization_role` t 
 LEFT JOIN ps_access j ON j.`id_authorization_role` = t.`id_authorization_role` 
 WHERE `slug` = "ROLE_MOD_TAB_ADMINPRODUCTS_READ" 
-AND j.`id_profile` = "1" LIMIT 1
-26
+AND j.`id_profile` = "1" 
+LIMIT 1
+
+-- 26
+/*
++------------+-------------+-----------------+---------------------+-----------------+--------------------+---------+-------------+-------+------+-----+----------+----------+------------------+---------------------+-----------------+-----------+-----------------+-------+------------------+--------------------------+------------+--------------------+----------+----------+----------+----------+----------+--------------+---------------------------+-------------------+--------------+------------------+-------------+--------+---------------+--------------------+---------------------+----------------+----------------+-----------+------------+---------+------------+---------------+-----------------------+------------+-------------------------+---------------------+---------------------+---------------------------+-----------------+-------+------------+---------+---------------------+--------------------+---------+-------------+----------+------------------+---------------------+-----------------+-----------+-----------------+-------+------------------+--------------------------+--------------+------------------+-------------+--------+---------------+--------------------+---------------------+----------------+----------------+-----------+------------+---------+------------+-------------------------+---------------------------+---------------------+---------------------+-----------------+
+| id_product | id_supplier | id_manufacturer | id_category_default | id_shop_default | id_tax_rules_group | on_sale | online_only | ean13 | isbn | upc |  ecotax  | quantity | minimal_quantity | low_stock_threshold | low_stock_alert |   price   | wholesale_price | unity | unit_price_ratio | additional_shipping_cost | reference  | supplier_reference | location |  width   |  height  |  depth   |  weight  | out_of_stock | additional_delivery_times | quantity_discount | customizable | uploadable_files | text_fields | active | redirect_type | id_type_redirected | available_for_order | available_date | show_condition | condition | show_price | indexed | visibility | cache_is_pack | cache_has_attachments | is_virtual | cache_default_attribute |      date_add       |      date_upd       | advanced_stock_management | pack_stock_type | state | id_product | id_shop | id_category_default | id_tax_rules_group | on_sale | online_only |  ecotax  | minimal_quantity | low_stock_threshold | low_stock_alert |   price   | wholesale_price | unity | unit_price_ratio | additional_shipping_cost | customizable | uploadable_files | text_fields | active | redirect_type | id_type_redirected | available_for_order | available_date | show_condition | condition | show_price | indexed | visibility | cache_default_attribute | advanced_stock_management |      date_add       |      date_upd       | pack_stock_type |
++------------+-------------+-----------------+---------------------+-----------------+--------------------+---------+-------------+-------+------+-----+----------+----------+------------------+---------------------+-----------------+-----------+-----------------+-------+------------------+--------------------------+------------+--------------------+----------+----------+----------+----------+----------+--------------+---------------------------+-------------------+--------------+------------------+-------------+--------+---------------+--------------------+---------------------+----------------+----------------+-----------+------------+---------+------------+---------------+-----------------------+------------+-------------------------+---------------------+---------------------+---------------------------+-----------------+-------+------------+---------+---------------------+--------------------+---------+-------------+----------+------------------+---------------------+-----------------+-----------+-----------------+-------+------------------+--------------------------+--------------+------------------+-------------+--------+---------------+--------------------+---------------------+----------------+----------------+-----------+------------+---------+------------+-------------------------+---------------------------+---------------------+---------------------+-----------------+
+|         20 |           0 |               2 |                   2 |               1 |                  1 |       0 |           0 |       |      |     | 0.000000 |        0 |                1 | \N                  |               0 | 10.000000 |        0.000000 |       |         0.000000 |                     0.00 | REFNUMEAF1 |                    |          | 0.000000 | 0.000000 | 0.000000 | 0.000000 |            2 |                         1 |                 0 |            0 |                0 |           0 |      0 |           404 |                  0 |                   1 | 0000-00-00     |              0 | new       |          1 |       0 | both       |             0 |                     0 |          0 |                       0 | 2018-04-06 18:06:00 | 2018-04-06 18:24:58 |                         0 |               3 |     1 |         20 |       1 |                   2 |                  1 |       0 |           0 | 0.000000 |                1 | \N                  |               0 | 10.000000 |        0.000000 |       |         0.000000 |                     0.00 |            0 |                0 |           0 |      0 |           404 |                  0 |                   1 | 0000-00-00     |              0 | new       |          1 |       0 | both       |                       0 |                         0 | 2018-04-06 18:06:00 | 2018-04-06 18:24:58 |               3 |
++------------+-------------+-----------------+---------------------+-----------------+--------------------+---------+-------------+-------+------+-----+----------+----------+------------------+---------------------+-----------------+-----------+-----------------+-------+------------------+--------------------------+------------+--------------------+----------+----------+----------+----------+----------+--------------+---------------------------+-------------------+--------------+------------------+-------------+--------+---------------+--------------------+---------------------+----------------+----------------+-----------+------------+---------+------------+---------------+-----------------------+------------+-------------------------+---------------------+---------------------+---------------------------+-----------------+-------+------------+---------+---------------------+--------------------+---------+-------------+----------+------------------+---------------------+-----------------+-----------+-----------------+-------+------------------+--------------------------+--------------+------------------+-------------+--------+---------------+--------------------+---------------------+----------------+----------------+-----------+------------+---------+------------+-------------------------+---------------------------+---------------------+---------------------+-----------------+
+*/
 SELECT * 
 FROM `ps_product` a 
-LEFT JOIN `ps_product_shop` `c` ON a.`id_product` = c.`id_product`
+LEFT JOIN `ps_product_shop` `c` 
+ON a.`id_product` = c.`id_product`
 AND c.`id_shop` = 1 
-WHERE (a.`id_product` = 20) LIMIT 1
+WHERE (a.`id_product` = 20) 
+LIMIT 1
+
+/*
 27
+
++------------+---------+---------+-------------+---------------------------------------------------+------------------+------------------+---------------+------------+------------------+---------------+-----------------+-------------------+--------------------+
+| id_product | id_shop | id_lang | description |                 description_short                 |   link_rewrite   | meta_description | meta_keywords | meta_title |       name       | available_now | available_later | delivery_in_stock | delivery_out_stock |
++------------+---------+---------+-------------+---------------------------------------------------+------------------+------------------+---------------+------------+------------------+---------------+-----------------+-------------------+--------------------+
+|         20 |       1 |       1 |             | <p>ESTO ES EL LA PESTAÑA DE RESUMEN DE PEDIDO</p> | mi-producto-eaf1 |                  |               |            | Mi producto EAF1 |               |                 |                   |                    |
+|         20 |       1 |       2 |             |                                                   | mi-producto-eaf1 |                  |               |            | Mi producto EAF1 |               |                 |                   |                    |
+|         20 |       1 |       3 |             |                                                   | mi-producto-eaf1 |                  |               |            | Mi producto EAF1 |               |                 |                   |                    |
+|         20 |       1 |       4 |             |                                                   | mi-producto-eaf1 |                  |               |            | Mi producto EAF1 |               |                 |                   |                    |
++------------+---------+---------+-------------+---------------------------------------------------+------------------+------------------+---------------+------------+------------------+---------------+-----------------+-------------------+--------------------+
+*/
 SELECT * 
 FROM `ps_product_lang` 
 WHERE `id_product` = 20
 AND `id_shop` = 1
+
+/*
 28
 SELECT cl.`link_rewrite` 
 FROM `ps_category_lang` cl 
 WHERE `id_lang` = 0 
-AND cl.id_shop = 1 AND cl.`id_category` = 2 LIMIT 1
+AND cl.id_shop = 1 
+AND cl.`id_category` = 2 
+LIMIT 1
+*/
+
+
+/*
 29
++----------+
+| id_image |
++----------+
+|       24 |
++----------+
+*/
 SELECT image_shop.`id_image` 
 FROM `ps_image` i 
-INNER JOIN ps_image_shop image_shop ON (image_shop.id_image = i.id_image
-AND image_shop.id_shop = 1) 
-WHERE i.`id_product` = 20 AND image_shop.`cover` = 1 LIMIT 1
+INNER JOIN ps_image_shop image_shop 
+ON (image_shop.id_image = i.id_image AND image_shop.id_shop = 1) 
+WHERE i.`id_product` = 20 
+AND image_shop.`cover` = 1 
+LIMIT 1
+
+
+/*
 30
++----------+
+| iso_code |
++----------+
+| ES       |
++----------+
+*/
 SELECT `iso_code` 
 FROM `ps_country` 
-WHERE `id_country` = 6 LIMIT 1
-31
+WHERE `id_country` = 6 
+LIMIT 1
+
+-- 31
 SELECT `priority`, `id_specific_price_priority` 
 FROM `ps_specific_price_priority` 
 WHERE `id_product` = 20 
 ORDER BY `id_specific_price_priority` DESC LIMIT 1
+
+/*
 32
++---------------+---------+----------------+-------------+-------------+--------+---------+
+| id_shop_group |  name   | share_customer | share_order | share_stock | active | deleted |
++---------------+---------+----------------+-------------+-------------+--------+---------+
+|             1 | Default |              0 |           0 |           0 |      1 |       0 |
++---------------+---------+----------------+-------------+-------------+--------+---------+
+*/
 SELECT * 
 FROM `ps_shop_group` a 
-WHERE (a.`id_shop_group` = 1) LIMIT 1
+WHERE (a.`id_shop_group` = 1) 
+LIMIT 1
+
+/*
 33
++---------------+
+| SUM(quantity) |
++---------------+
+|             5 |
++---------------+
+*/
 SELECT SUM(quantity) 
 FROM `ps_stock_available` 
 WHERE (id_product = 20)
 AND (id_product_attribute = 0)
 AND (id_shop = 1)
-AND (id_shop_group = 0) LIMIT 1
-34
+AND (id_shop_group = 0) 
+LIMIT 1
+
+/*
++--------------+
+| out_of_stock |
++--------------+
+|            2 |
++--------------+
+*/
 SELECT out_of_stock 
 FROM `ps_stock_available` 
 WHERE (id_product = 20)
 AND (id_product_attribute = 0)
 AND (id_shop = 1)
-AND (id_shop_group = 0) LIMIT 1
+AND (id_shop_group = 0) 
+LIMIT 1
+
+/*
 35
++------------------+
+| depends_on_stock |
++------------------+
+|                0 |
++------------------+
+*/
 SELECT depends_on_stock 
 FROM `ps_stock_available` 
 WHERE (id_product = 20)
 AND (id_product_attribute = 0)
 AND (id_shop = 1)
-AND (id_shop_group = 0) LIMIT 1
+AND (id_shop_group = 0) 
+LIMIT 1
+
+/*
 36
++-------------+
+| id_category |
++-------------+
+|           2 |
+|           3 |
+|           4 |
+|           8 |
+|           9 |
+|          10 |
++-------------+
+*/
 SELECT `id_category` 
 FROM `ps_category_product` 
 WHERE `id_product` = 20
+
+/*
 37
++------------+-----------+----------------------------------------+
+| id_product | reference |                  name                  |
++------------+-----------+----------------------------------------+
+|          1 | demo_1    | Hummingbird printed t-shirt            |
+|          3 | demo_6    | The best is yet to come' Framed poster |
++------------+-----------+----------------------------------------+
+*/
 SELECT p.`id_product`, p.`reference`, pl.`name` 
 FROM `ps_accessory` 
-LEFT JOIN `ps_product` p ON (p.`id_product`= `id_product_2`) 
-INNER JOIN ps_product_shop product_shop ON (product_shop.id_product = p.id_product
-AND product_shop.id_shop = 1) 
-LEFT JOIN `ps_product_lang` pl ON ( p.`id_product` = pl.`id_product` AND pl.`id_lang` = 1
-AND pl.id_shop = 1 ) 
+LEFT JOIN `ps_product` p 
+ON (p.`id_product`= `id_product_2`) 
+INNER JOIN ps_product_shop product_shop 
+ON (product_shop.id_product = p.id_product AND product_shop.id_shop = 1) 
+LEFT JOIN `ps_product_lang` pl 
+ON ( p.`id_product` = pl.`id_product` AND pl.`id_lang` = 1 AND pl.id_shop = 1 ) 
 WHERE `id_product_1` = 20
+
+/*
 38
++------------+------------+------------------+--------+
+| id_feature | id_product | id_feature_value | custom |
++------------+------------+------------------+--------+
+|          1 |         20 |               44 |      1 |
+|          2 |         20 |               45 |      1 |
+|          3 |         20 |               46 |      1 |
+|          4 |         20 |               47 |      1 |
+|          5 |         20 |               48 |      1 |
++------------+------------+------------------+--------+
+*/
 SELECT fp.id_feature, fp.id_product, fp.id_feature_value, custom 
 FROM `ps_feature_product` fp 
-LEFT JOIN `ps_feature_value` fv ON (fp.id_feature_value = fv.id_feature_value) 
+LEFT JOIN `ps_feature_value` fv 
+ON (fp.id_feature_value = fv.id_feature_value) 
 WHERE `id_product` = 20
+
+/*
 39
++------------------+---------+------------------+
+| id_feature_value | id_lang |      value       |
++------------------+---------+------------------+
+|               44 |       1 | CAR. COMPOSICION |
+|               44 |       2 |                  |
+|               44 |       3 |                  |
+|               44 |       4 |                  |
++------------------+---------+------------------+
+*/
 SELECT * 
 FROM `ps_feature_value_lang` 
 WHERE `id_feature_value` = 44 
 ORDER BY `id_lang`
+
+/*
 40
++------------------+---------+----------------+
+| id_feature_value | id_lang |     value      |
++------------------+---------+----------------+
+|               45 |       1 | CAR. PAPERTYPE |
+|               45 |       2 |                |
+|               45 |       3 |                |
+|               45 |       4 |                |
++------------------+---------+----------------+
+*/
 SELECT * 
 FROM `ps_feature_value_lang` 
 WHERE `id_feature_value` = 45 
 ORDER BY `id_lang`
+
+/*
 41
++------------------+---------+------------+
+| id_feature_value | id_lang |   value    |
++------------------+---------+------------+
+|               46 |       1 | CAR. COLOR |
+|               46 |       2 |            |
+|               46 |       3 |            |
+|               46 |       4 |            |
++------------------+---------+------------+
+*/
 SELECT * 
 FROM `ps_feature_value_lang` 
 WHERE `id_feature_value` = 46 
 ORDER BY `id_lang`
+
+/*
 42
++------------------+---------+-----------+
+| id_feature_value | id_lang |   value   |
++------------------+---------+-----------+
+|               47 |       1 | CAR. SIZE |
+|               47 |       2 |           |
+|               47 |       3 |           |
+|               47 |       4 |           |
++------------------+---------+-----------+
+*/
 SELECT * 
 FROM `ps_feature_value_lang` 
 WHERE `id_feature_value` = 47 
 ORDER BY `id_lang`
+
+/*
 43
++------------------+---------+----------------+
+| id_feature_value | id_lang |     value      |
++------------------+---------+----------------+
+|               48 |       1 | CAR. FRAMESIZE |
+|               48 |       2 |                |
+|               48 |       3 |                |
+|               48 |       4 |                |
++------------------+---------+----------------+
+*/
 SELECT * 
 FROM `ps_feature_value_lang` 
 WHERE `id_feature_value` = 48 
 ORDER BY `id_lang`
+
+/*
 44
++----------+------------+----------+-------+----------+---------+--------+
+| id_image | id_product | position | cover | id_image | id_lang | legend |
++----------+------------+----------+-------+----------+---------+--------+
+|       24 |         20 |        1 | 1     |       24 |       1 |        |
+|       25 |         20 |        2 | \N    |       25 |       1 |        |
++----------+------------+----------+-------+----------+---------+--------+
+*/
 SELECT * 
 FROM `ps_image` i 
-LEFT JOIN `ps_image_lang` il ON (i.`id_image` = il.`id_image`) 
+LEFT JOIN `ps_image_lang` il 
+ON (i.`id_image` = il.`id_image`) 
 WHERE i.`id_product` = 20
 AND il.`id_lang` = 1 
 ORDER BY i.`position` ASC
+
+/*
 45
++----------+------------+----------+-------+------------+----------+---------+-------+
+| id_image | id_product | position | cover | id_product | id_image | id_shop | cover |
++----------+------------+----------+-------+------------+----------+---------+-------+
+|       24 |         20 |        1 |     1 |         20 |       24 |       1 |     1 |
++----------+------------+----------+-------+------------+----------+---------+-------+
+*/
 SELECT * 
 FROM `ps_image` a 
-LEFT JOIN `ps_image_shop` `c` ON a.`id_image` = c.`id_image`
+LEFT JOIN `ps_image_shop` `c` 
+ON a.`id_image` = c.`id_image`
 AND c.`id_shop` = 1 
-WHERE (a.`id_image` = 24) LIMIT 1
+WHERE (a.`id_image` = 24) 
+LIMIT 1
+
+/*
 46
++----------+---------+--------+
+| id_image | id_lang | legend |
++----------+---------+--------+
+|       24 |       1 |        |
+|       24 |       2 |        |
+|       24 |       3 |        |
+|       24 |       4 |        |
++----------+---------+--------+
+*/
 SELECT * 
 FROM `ps_image_lang` 
 WHERE `id_image` = 24
-47
-SELECT * 
-FROM `ps_image` a 
-LEFT JOIN `ps_image_shop` `c` ON a.`id_image` = c.`id_image`
-AND c.`id_shop` = 1 
-WHERE (a.`id_image` = 25) LIMIT 1
-48
-SELECT * 
-FROM `ps_image_lang` 
-WHERE `id_image` = 25
-49
+
+-- 49
 SELECT pa.*, product_attribute_shop.* 
 FROM `ps_product_attribute` pa 
-INNER JOIN ps_product_attribute_shop product_attribute_shop ON (product_attribute_shop.id_product_attribute = pa.id_product_attribute
+INNER JOIN ps_product_attribute_shop product_attribute_shop 
+ON (product_attribute_shop.id_product_attribute = pa.id_product_attribute
 AND product_attribute_shop.id_shop = 1) 
 WHERE pa.`id_product` = 20 
 GROUP BY pa.`id_product_attribute`
-50
+
+-- 50
 SELECT `id_product_download` 
 FROM `ps_product_download` 
 WHERE `id_product` = 20 
 ORDER BY `id_product_download` DESC LIMIT 1
-51
+
+-- 51
 SELECT c.* 
 FROM `ps_product_carrier` pc 
-INNER JOIN `ps_carrier` c ON (c.`id_reference` = pc.`id_carrier_reference`
+INNER JOIN `ps_carrier` c 
+ON (c.`id_reference` = pc.`id_carrier_reference`
 AND c.`deleted` = 0) 
-WHERE pc.`id_product` = 20 AND pc.`id_shop` = 1
-52
+WHERE pc.`id_product` = 20 
+AND pc.`id_shop` = 1
+
+-- 52
 SELECT t.`id_lang`, t.`name` 
 FROM ps_tag t 
-LEFT JOIN ps_product_tag pt ON (pt.id_tag = t.id_tag) 
+LEFT JOIN ps_product_tag pt 
+ON (pt.id_tag = t.id_tag) 
 WHERE pt.`id_product`=20
-53
+
+-- 53
 SELECT * 
 FROM `ps_product_supplier` a0 
 WHERE (a0.`id_product` = 20) 
 GROUP BY a0.`id_supplier`
-54
+
+-- 54
 SELECT cf.`id_customization_field`, cf.`type`, cf.`required`, cfl.`name`, cfl.`id_lang` 
-FROM `ps_customization_field` cf NATURAL JOIN `ps_customization_field_lang` cfl 
+FROM `ps_customization_field` cf 
+NATURAL JOIN `ps_customization_field_lang` cfl 
 WHERE cf.`id_product` = 20 
 AND cf.`is_deleted` = 0 
 ORDER BY cf.`id_customization_field`
-55
+
+--55
 SELECT * 
 FROM ps_attachment a 
-LEFT JOIN ps_attachment_lang al ON (a.id_attachment = al.id_attachment
+LEFT JOIN ps_attachment_lang al 
+ON (a.id_attachment = al.id_attachment
 AND al.id_lang = 1) 
 WHERE a.id_attachment IN ( SELECT pa.id_attachment 
 FROM ps_product_attachment pa 
 WHERE id_product = 20 )
-56
+
+-- 56
 SELECT pa.*, product_attribute_shop.* 
 FROM `ps_product_attribute` pa 
-INNER JOIN ps_product_attribute_shop product_attribute_shop ON (product_attribute_shop.id_product_attribute = pa.id_product_attribute
+INNER JOIN ps_product_attribute_shop product_attribute_shop 
+ON (product_attribute_shop.id_product_attribute = pa.id_product_attribute
 AND product_attribute_shop.id_shop = 1) 
 WHERE pa.`id_product` = 20 
 GROUP BY pa.`id_product_attribute`
+
 57
 SELECT * 
 FROM `ps_product_supplier` a0 
@@ -2564,11 +2760,7 @@ FROM `ps_category_lang` cl
 WHERE `id_lang` = 1 
 AND cl.id_shop = 1 AND cl.`id_category` = 2 LIMIT 1
 96
-SELECT * 
-FROM `ps_product` a 
-LEFT JOIN `ps_product_shop` `c` ON a.`id_product` = c.`id_product`
-AND c.`id_shop` = 1 
-WHERE (a.`id_product` = 1) LIMIT 1
+
 97
 SELECT * 
 FROM `ps_product_lang` 
