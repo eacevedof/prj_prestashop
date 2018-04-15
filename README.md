@@ -45,7 +45,8 @@ Pruebas de prestashop 1.7.3.0
     linea 
     datos de acceso email//pass
     configuracion de bd
-    
+    se guarda en \app\config\parameters.php
+
 5 Errores
 ```
 [18-Mar-2018 00:32:32 Europe/Madrid] PHP Fatal error:  Declaration of AdminLoginControllerCore::setMedia() must be compatible with AdminControllerCore::setMedia($isNewTheme = false) in D:\xampp\htdocs\wwwpresta\controllers\admin\AdminLoginController.php on line 394
@@ -98,6 +99,7 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
 ## Despliegue en produccion
 - [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
 - [Pasar localhost a prod](https://www.youtube.com/watch?v=1UZx3qqFVG4)
+- Archivo de configuracion de bd: **`\app\config\parameters.php`**
 
 ```sql
 
