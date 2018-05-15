@@ -101,6 +101,10 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
         6.2.1 [Utilizando el tema - Botón Utilizar este tema](https://youtu.be/m99RwBiucP4?t=2767)
     6.3 [Cambiando el logotipo](https://youtu.be/m99RwBiucP4?t=2890)
         1. Las medidas sugeridas son H:40px y W:200px
+        3. Cada tema sugiere unas medidas.
+        4. [Se pueden configurar logos para correo y factura.](https://youtu.be/m99RwBiucP4?t=2939)
+        5. [Configurar favicon en formatio ".ico"](https://youtu.be/m99RwBiucP4?t=2969)
+        
 
 ## Despliegue en produccion
 - [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
