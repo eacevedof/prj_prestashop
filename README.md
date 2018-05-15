@@ -104,7 +104,8 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
         3. Cada tema sugiere unas medidas.
         4. [Se pueden configurar logos para correo y factura.](https://youtu.be/m99RwBiucP4?t=2939)
         5. [Configurar favicon en formatio ".ico"](https://youtu.be/m99RwBiucP4?t=2969)
-        
+            1. [Convertir imagen en .ico](http://convertimage.es/convertir-una-imagen/a-ico/)
+
 
 ## Despliegue en produccion
 - [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
