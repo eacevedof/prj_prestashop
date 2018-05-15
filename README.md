@@ -85,6 +85,7 @@ eliminado la carpeta /install
 A continuación, accede a esta página mediante la nueva URL (ej.: http://presta:8000/admin462vfm5qp/)
 
 ### Indice tutorial Prestashop 1.7.3
+## [Video: TUTORIAL DE PRESTASHOP 2018 EN ESPAÑOL - PARTE 1 - Yoney Gallardo](https://www.youtube.com/watch?v=m99RwBiucP4)
 
 1. [Repasando despues de la instalacion](https://youtu.be/m99RwBiucP4?t=1895)
 2. [Distribucion](https://youtu.be/m99RwBiucP4?t=1706)
@@ -137,3 +138,5 @@ OR request_uri LIKE '%presta:8000%'
 ```
 
 Incluyo TheFramework/*
+
+Error al editar un producto: https://www.prestashop.com/forums/topic/563074-can-only-edit-save-products-sometimes/#comment-2429096
