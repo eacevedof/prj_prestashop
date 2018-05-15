@@ -96,6 +96,11 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
     5.2 [Módulos notificaciones](https://youtu.be/m99RwBiucP4?t=2310)
     5.3 [Módulos catalogo](https://youtu.be/m99RwBiucP4?t=2346)
 6. [Personalizar/Diseño/Tema y Logotipo](https://youtu.be/m99RwBiucP4?t=2362)
+    6.1 [Backoffice Temas](https://youtu.be/m99RwBiucP4?t=2578)
+    6.2 [Instalando un tema](https://youtu.be/m99RwBiucP4?t=2689)
+        6.2.1 [Utilizando el tema - Botón Utilizar este tema](https://youtu.be/m99RwBiucP4?t=2767)
+    6.3 [Cambiando el logotipo](https://youtu.be/m99RwBiucP4?t=2890)
+        1. Las medidas sugeridas son H:40px y W:200px
 
 ## Despliegue en produccion
 - [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
