@@ -105,6 +105,8 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
         4. [Se pueden configurar logos para correo y factura.](https://youtu.be/m99RwBiucP4?t=2939)
         5. [Configurar favicon en formatio ".ico"](https://youtu.be/m99RwBiucP4?t=2969)
             1. [Convertir imagen en .ico](http://convertimage.es/convertir-una-imagen/a-ico/)
+    6.4 [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
+        1. [Backoffice: Mejoras - Diseños ](https://youtu.be/m99RwBiucP4?t=3153)
 
 
 ## Despliegue en produccion
