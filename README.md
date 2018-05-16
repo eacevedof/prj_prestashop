@@ -108,6 +108,17 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
     6.4 [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
         1. [Backoffice.menu: Mejoras - Diseño - Páginas ](https://youtu.be/m99RwBiucP4?t=3153)
         2. [Añadiendo pagina estatica](https://youtu.be/m99RwBiucP4?t=3243)
+    6.5 [Posicionamiento de modulos: Backoffice.menu: Mejoras - Diseño - Posiciones de los modulos](https://youtu.be/m99RwBiucP4?t=3414)
+        1. [Un hook](https://youtu.be/m99RwBiucP4?t=3446)
+        2. [hook displayHome - configura el landing de la home](https://youtu.be/m99RwBiucP4?t=3473)
+            1. Carrusel de Imagenes
+            2. Productos destacados
+            3. Banner
+            5. Bloque de texto personalizado
+        3. [Insertando un módulo - Botón ancla (arriba a la derecha)](https://youtu.be/m99RwBiucP4?t=3517)
+            1. Se selecciona un Módulo por su descripción
+            2. Se indica en que sección debe aparecer (para el ejemplo DISPLAYhOME)
+            3. [Excepciones - Donde no se debe visualizar](https://youtu.be/m99RwBiucP4?t=3581)
 
 
 ## Despliegue en produccion
