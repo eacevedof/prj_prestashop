@@ -106,7 +106,8 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
         5. [Configurar favicon en formatio ".ico"](https://youtu.be/m99RwBiucP4?t=2969)
             1. [Convertir imagen en .ico](http://convertimage.es/convertir-una-imagen/a-ico/)
     6.4 [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
-        1. [Backoffice: Mejoras - Diseños ](https://youtu.be/m99RwBiucP4?t=3153)
+        1. [Backoffice.menu: Mejoras - Diseño - Páginas ](https://youtu.be/m99RwBiucP4?t=3153)
+        2. [Añadiendo pagina estatica](https://youtu.be/m99RwBiucP4?t=3243)
 
 
 ## Despliegue en produccion
