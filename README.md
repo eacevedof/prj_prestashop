@@ -1,6 +1,48 @@
 # prj_prestashop
 Pruebas de prestashop 1.7.3.0
 
+### Indice tutorial Prestashop 1.7.3
+#### [Video: TUTORIAL DE PRESTASHOP 2018 EN ESPAÑOL - PARTE 1 - Yoney Gallardo](https://www.youtube.com/watch?v=m99RwBiucP4)
+
+1. [Repasando despues de la instalacion](https://youtu.be/m99RwBiucP4?t=1895)
+2. [Distribucion](https://youtu.be/m99RwBiucP4?t=1706)
+3. [Distribucion - Zonas](https://youtu.be/m99RwBiucP4?t=1810)
+4. [Hooks](https://youtu.be/m99RwBiucP4?t=1884)
+5. [Personalizar/Módulos/Selección] (https://youtu.be/m99RwBiucP4?t=1969)
+    5.1 [Módulos instalados](https://youtu.be/m99RwBiucP4?t=2221)
+    5.2 [Módulos notificaciones](https://youtu.be/m99RwBiucP4?t=2310)
+    5.3 [Módulos catalogo](https://youtu.be/m99RwBiucP4?t=2346)
+6. [Personalizar/Diseño/Tema y Logotipo](https://youtu.be/m99RwBiucP4?t=2362)
+    6.1 [Backoffice Temas](https://youtu.be/m99RwBiucP4?t=2578)
+    6.2 [Instalando un tema](https://youtu.be/m99RwBiucP4?t=2689)
+        6.2.1 [Utilizando el tema - Botón Utilizar este tema](https://youtu.be/m99RwBiucP4?t=2767)
+    6.3 [Cambiando el logotipo](https://youtu.be/m99RwBiucP4?t=2890)
+        1. Las medidas sugeridas son H:40px y W:200px
+        3. Cada tema sugiere unas medidas.
+        4. [Se pueden configurar logos para correo y factura.](https://youtu.be/m99RwBiucP4?t=2939)
+        5. [Configurar favicon en formatio ".ico"](https://youtu.be/m99RwBiucP4?t=2969)
+            1. [Convertir imagen en .ico](http://convertimage.es/convertir-una-imagen/a-ico/)
+    6.4 [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
+        1. [Backoffice.menu: Mejoras - Diseño - Páginas ](https://youtu.be/m99RwBiucP4?t=3153)
+        2. [Añadiendo pagina estatica](https://youtu.be/m99RwBiucP4?t=3243)
+    6.5 [Posicionamiento de modulos: Backoffice.menu: Mejoras - Diseño - Posiciones de los modulos](https://youtu.be/m99RwBiucP4?t=3414)
+        1. [Un hook](https://youtu.be/m99RwBiucP4?t=3446)
+        2. [hook displayHome - configura el landing de la home](https://youtu.be/m99RwBiucP4?t=3473)
+            1. Carrusel de Imagenes
+            2. Productos destacados
+            3. Banner
+            5. Bloque de texto personalizado
+        3. [Insertando un módulo - Botón ancla (arriba a la derecha)](https://youtu.be/m99RwBiucP4?t=3517)
+            1. Se selecciona un Módulo por su descripción
+            2. Se indica en que sección debe aparecer (para el ejemplo DISPLAYhOME)
+            3. [Excepciones - Donde no se debe visualizar](https://youtu.be/m99RwBiucP4?t=3581)
+            4. [Cambiando el orden de visualizacion en la home](https://youtu.be/m99RwBiucP4?t=3699)
+        4. [Modificando modulos](https://youtu.be/m99RwBiucP4?t=3744)
+            1. Backoffice - menu - modulos - modulos y servicios
+            2. [Seccion módulos instalados](https://youtu.be/m99RwBiucP4?t=3752)
+            3. [Customizando Módulo: Menú principal](https://youtu.be/m99RwBiucP4?t=3775) 
+
+
 ## Instalacion
 1 Instala automaticamente. Descomprime el .zip
 2 Seleccion de idioma
@@ -83,46 +125,6 @@ el-nombre-de-la-tienda
 Por razones de seguridad, no te puedes conectar al back-office hasta que tengas:
 eliminado la carpeta /install
 A continuación, accede a esta página mediante la nueva URL (ej.: http://presta:8000/admin462vfm5qp/)
-
-### Indice tutorial Prestashop 1.7.3
-## [Video: TUTORIAL DE PRESTASHOP 2018 EN ESPAÑOL - PARTE 1 - Yoney Gallardo](https://www.youtube.com/watch?v=m99RwBiucP4)
-
-1. [Repasando despues de la instalacion](https://youtu.be/m99RwBiucP4?t=1895)
-2. [Distribucion](https://youtu.be/m99RwBiucP4?t=1706)
-3. [Distribucion - Zonas](https://youtu.be/m99RwBiucP4?t=1810)
-4. [Hooks](https://youtu.be/m99RwBiucP4?t=1884)
-5. [Personalizar/Módulos/Selección] (https://youtu.be/m99RwBiucP4?t=1969)
-    5.1 [Módulos instalados](https://youtu.be/m99RwBiucP4?t=2221)
-    5.2 [Módulos notificaciones](https://youtu.be/m99RwBiucP4?t=2310)
-    5.3 [Módulos catalogo](https://youtu.be/m99RwBiucP4?t=2346)
-6. [Personalizar/Diseño/Tema y Logotipo](https://youtu.be/m99RwBiucP4?t=2362)
-    6.1 [Backoffice Temas](https://youtu.be/m99RwBiucP4?t=2578)
-    6.2 [Instalando un tema](https://youtu.be/m99RwBiucP4?t=2689)
-        6.2.1 [Utilizando el tema - Botón Utilizar este tema](https://youtu.be/m99RwBiucP4?t=2767)
-    6.3 [Cambiando el logotipo](https://youtu.be/m99RwBiucP4?t=2890)
-        1. Las medidas sugeridas son H:40px y W:200px
-        3. Cada tema sugiere unas medidas.
-        4. [Se pueden configurar logos para correo y factura.](https://youtu.be/m99RwBiucP4?t=2939)
-        5. [Configurar favicon en formatio ".ico"](https://youtu.be/m99RwBiucP4?t=2969)
-            1. [Convertir imagen en .ico](http://convertimage.es/convertir-una-imagen/a-ico/)
-    6.4 [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
-        1. [Backoffice.menu: Mejoras - Diseño - Páginas ](https://youtu.be/m99RwBiucP4?t=3153)
-        2. [Añadiendo pagina estatica](https://youtu.be/m99RwBiucP4?t=3243)
-    6.5 [Posicionamiento de modulos: Backoffice.menu: Mejoras - Diseño - Posiciones de los modulos](https://youtu.be/m99RwBiucP4?t=3414)
-        1. [Un hook](https://youtu.be/m99RwBiucP4?t=3446)
-        2. [hook displayHome - configura el landing de la home](https://youtu.be/m99RwBiucP4?t=3473)
-            1. Carrusel de Imagenes
-            2. Productos destacados
-            3. Banner
-            5. Bloque de texto personalizado
-        3. [Insertando un módulo - Botón ancla (arriba a la derecha)](https://youtu.be/m99RwBiucP4?t=3517)
-            1. Se selecciona un Módulo por su descripción
-            2. Se indica en que sección debe aparecer (para el ejemplo DISPLAYhOME)
-            3. [Excepciones - Donde no se debe visualizar](https://youtu.be/m99RwBiucP4?t=3581)
-            4. [Cambiando el orden de visualizacion en la home](https://youtu.be/m99RwBiucP4?t=3699)
-        4. [Modificando modulos](https://youtu.be/m99RwBiucP4?t=3744)
-            1. Backoffice - menu - modulos - modulos y servicios
-            2. [Seccion módulos instalados](https://youtu.be/m99RwBiucP4?t=3752)    
 
 ## Despliegue en produccion
 - [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
