@@ -119,7 +119,10 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
             1. Se selecciona un Módulo por su descripción
             2. Se indica en que sección debe aparecer (para el ejemplo DISPLAYhOME)
             3. [Excepciones - Donde no se debe visualizar](https://youtu.be/m99RwBiucP4?t=3581)
-
+            4. [Cambiando el orden de visualizacion en la home](https://youtu.be/m99RwBiucP4?t=3699)
+        4. [Modificando modulos](https://youtu.be/m99RwBiucP4?t=3744)
+            1. Backoffice - menu - modulos - modulos y servicios
+            2. [Seccion módulos instalados](https://youtu.be/m99RwBiucP4?t=3752)    
 
 ## Despliegue en produccion
 - [Pasar de localhost a prod](https://webartesanal.com/blog/como-trasladar-o-migrar-una-tienda-prestashop-de-localhost-a-un-servidor-online/)
