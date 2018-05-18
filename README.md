@@ -9,23 +9,23 @@ Pruebas de prestashop 1.7.3.0
 3. [Distribucion - Zonas](https://youtu.be/m99RwBiucP4?t=1810)
 4. [Hooks](https://youtu.be/m99RwBiucP4?t=1884)
 5. [Personalizar/Módulos/Selección] (https://youtu.be/m99RwBiucP4?t=1969)
-    5.1 [Módulos instalados](https://youtu.be/m99RwBiucP4?t=2221)
-    5.2 [Módulos notificaciones](https://youtu.be/m99RwBiucP4?t=2310)
-    5.3 [Módulos catalogo](https://youtu.be/m99RwBiucP4?t=2346)
+    1. [Módulos instalados](https://youtu.be/m99RwBiucP4?t=2221)
+    2. [Módulos notificaciones](https://youtu.be/m99RwBiucP4?t=2310)
+    3. [Módulos catalogo](https://youtu.be/m99RwBiucP4?t=2346)
 6. [Personalizar/Diseño/Tema y Logotipo](https://youtu.be/m99RwBiucP4?t=2362)
-    6.1 [Backoffice Temas](https://youtu.be/m99RwBiucP4?t=2578)
-    6.2 [Instalando un tema](https://youtu.be/m99RwBiucP4?t=2689)
-        6.2.1 [Utilizando el tema - Botón Utilizar este tema](https://youtu.be/m99RwBiucP4?t=2767)
-    6.3 [Cambiando el logotipo](https://youtu.be/m99RwBiucP4?t=2890)
+    1. [Backoffice Temas](https://youtu.be/m99RwBiucP4?t=2578)
+    2. [Instalando un tema](https://youtu.be/m99RwBiucP4?t=2689)
+       1. [Utilizando el tema - Botón Utilizar este tema](https://youtu.be/m99RwBiucP4?t=2767)
+    3. [Cambiando el logotipo](https://youtu.be/m99RwBiucP4?t=2890)
         1. Las medidas sugeridas son H:40px y W:200px
         3. Cada tema sugiere unas medidas.
         4. [Se pueden configurar logos para correo y factura.](https://youtu.be/m99RwBiucP4?t=2939)
         5. [Configurar favicon en formatio ".ico"](https://youtu.be/m99RwBiucP4?t=2969)
             1. [Convertir imagen en .ico](http://convertimage.es/convertir-una-imagen/a-ico/)
-    6.4 [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
+    4 [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
         1. [Backoffice.menu: Mejoras - Diseño - Páginas ](https://youtu.be/m99RwBiucP4?t=3153)
         2. [Añadiendo pagina estatica](https://youtu.be/m99RwBiucP4?t=3243)
-    6.5 [Posicionamiento de modulos: Backoffice.menu: Mejoras - Diseño - Posiciones de los modulos](https://youtu.be/m99RwBiucP4?t=3414)
+    5 [Posicionamiento de modulos: Backoffice.menu: Mejoras - Diseño - Posiciones de los modulos](https://youtu.be/m99RwBiucP4?t=3414)
         1. [Un hook](https://youtu.be/m99RwBiucP4?t=3446)
         2. [hook displayHome - configura el landing de la home](https://youtu.be/m99RwBiucP4?t=3473)
             1. Carrusel de Imagenes
@@ -41,7 +41,9 @@ Pruebas de prestashop 1.7.3.0
             1. Backoffice - menu - modulos - modulos y servicios
             2. [Seccion módulos instalados](https://youtu.be/m99RwBiucP4?t=3752)
             3. [Customizando Módulo: Menú principal](https://youtu.be/m99RwBiucP4?t=3775) 
-
+            4. [Posiciones de módulos](https://youtu.be/m99RwBiucP4?t=3788)
+            5. [Configurando menu principal con enlace externo](https://youtu.be/m99RwBiucP4?t=3952)
+            6. []
 
 ## Instalacion
 1 Instala automaticamente. Descomprime el .zip
