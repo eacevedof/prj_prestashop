@@ -22,28 +22,28 @@ Pruebas de prestashop 1.7.3.0
         4. [Se pueden configurar logos para correo y factura.](https://youtu.be/m99RwBiucP4?t=2939)
         5. [Configurar favicon en formatio ".ico"](https://youtu.be/m99RwBiucP4?t=2969)
             1. [Convertir imagen en .ico](http://convertimage.es/convertir-una-imagen/a-ico/)
-    4 [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
+    4. [Sobre paginas estaticas, links en pie](https://youtu.be/m99RwBiucP4?t=3121)
         1. [Backoffice.menu: Mejoras - Diseño - Páginas ](https://youtu.be/m99RwBiucP4?t=3153)
         2. [Añadiendo pagina estatica](https://youtu.be/m99RwBiucP4?t=3243)
-    5 [Posicionamiento de modulos: Backoffice.menu: Mejoras - Diseño - Posiciones de los modulos](https://youtu.be/m99RwBiucP4?t=3414)
-        1. [Un hook](https://youtu.be/m99RwBiucP4?t=3446)
-        2. [hook displayHome - configura el landing de la home](https://youtu.be/m99RwBiucP4?t=3473)
-            1. Carrusel de Imagenes
-            2. Productos destacados
-            3. Banner
-            5. Bloque de texto personalizado
-        3. [Insertando un módulo - Botón ancla (arriba a la derecha)](https://youtu.be/m99RwBiucP4?t=3517)
-            1. Se selecciona un Módulo por su descripción
-            2. Se indica en que sección debe aparecer (para el ejemplo DISPLAYhOME)
-            3. [Excepciones - Donde no se debe visualizar](https://youtu.be/m99RwBiucP4?t=3581)
-            4. [Cambiando el orden de visualizacion en la home](https://youtu.be/m99RwBiucP4?t=3699)
-        4. [Modificando modulos](https://youtu.be/m99RwBiucP4?t=3744)
-            1. Backoffice - menu - modulos - modulos y servicios
-            2. [Seccion módulos instalados](https://youtu.be/m99RwBiucP4?t=3752)
-            3. [Customizando Módulo: Menú principal](https://youtu.be/m99RwBiucP4?t=3775) 
-            4. [Posiciones de módulos](https://youtu.be/m99RwBiucP4?t=3788)
-            5. [Configurando menu principal con enlace externo](https://youtu.be/m99RwBiucP4?t=3952)
-            6. []
+7. [Posicionamiento de modulos: Backoffice.menu: Mejoras - Diseño - Posiciones de los modulos](https://youtu.be/m99RwBiucP4?t=3414)
+    1. [Un hook](https://youtu.be/m99RwBiucP4?t=3446)
+    2. [hook displayHome - configura el landing de la home](https://youtu.be/m99RwBiucP4?t=3473)
+        1. Carrusel de Imagenes
+        2. Productos destacados
+        3. Banner
+        5. Bloque de texto personalizado
+3. [Insertando un módulo - Botón ancla (arriba a la derecha)](https://youtu.be/m99RwBiucP4?t=3517)
+    1. Se selecciona un Módulo por su descripción
+    2. Se indica en que sección debe aparecer (para el ejemplo DISPLAYhOME)
+    3. [Excepciones - Donde no se debe visualizar](https://youtu.be/m99RwBiucP4?t=3581)
+    4. [Cambiando el orden de visualizacion en la home](https://youtu.be/m99RwBiucP4?t=3699)
+4. [Modificando modulos](https://youtu.be/m99RwBiucP4?t=3744)
+    1. Backoffice - menu - modulos - modulos y servicios
+    2. [Seccion módulos instalados](https://youtu.be/m99RwBiucP4?t=3752)
+    3. [Customizando Módulo: Menú principal](https://youtu.be/m99RwBiucP4?t=3775) 
+    4. [Posiciones de módulos](https://youtu.be/m99RwBiucP4?t=3788)
+    5. [Configurando menu principal con enlace externo](https://youtu.be/m99RwBiucP4?t=3952)
+    6. []
 
 ## Instalacion
 1 Instala automaticamente. Descomprime el .zip
