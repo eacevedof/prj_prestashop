@@ -34,7 +34,7 @@ Pruebas de prestashop 1.7.3.0
         5. Bloque de texto personalizado
 3. [Insertando un módulo - Botón ancla (arriba a la derecha)](https://youtu.be/m99RwBiucP4?t=3517)
     1. Se selecciona un Módulo por su descripción
-    2. Se indica en que sección debe aparecer (para el ejemplo DISPLAYhOME)
+    2. Se indica en que sección debe aparecer (para el ejemplo displayHome)
     3. [Excepciones - Donde no se debe visualizar](https://youtu.be/m99RwBiucP4?t=3581)
     4. [Cambiando el orden de visualizacion en la home](https://youtu.be/m99RwBiucP4?t=3699)
 4. [Modificando modulos](https://youtu.be/m99RwBiucP4?t=3744)
@@ -46,11 +46,11 @@ Pruebas de prestashop 1.7.3.0
     6. []
 
 ## Instalacion
-1 Instala automaticamente. Descomprime el .zip
-2 Seleccion de idioma
-3 Acuerdos de licencia
-    Revisa compatibilidad
-    crea un archivo: app/cache/prod/cacert.pem
+1. Instala automaticamente. Descomprime el .zip
+2. Seleccion de idioma
+3. Acuerdos de licencia
+    - Revisa compatibilidad
+    - crea un archivo: app/cache/prod/cacert.pem
     ```
     Install and enable the intl extension (used for validators).
         Estension para internacionalizacion
@@ -84,15 +84,16 @@ Pruebas de prestashop 1.7.3.0
             apc.serializer=php
             extension=php_apc.dll   compatibilidad con el apc
     ```
-4 Configuracion
+4. Configuracion
     nombre del sitio
     linea 
     datos de acceso email//pass
     configuracion de bd
     se guarda en \app\config\parameters.php
 
-5 Errores
+5. Errores
 ```
+
 [18-Mar-2018 00:32:32 Europe/Madrid] PHP Fatal error:  Declaration of AdminLoginControllerCore::setMedia() must be compatible with AdminControllerCore::setMedia($isNewTheme = false) in D:\xampp\htdocs\wwwpresta\controllers\admin\AdminLoginController.php on line 394
 [18-Mar-2018 00:32:32 Europe/Madrid] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalErrorException: Compile Error: Declaration of AdminLoginControllerCore::setMedia() must be compatible with AdminControllerCore::setMedia($isNewTheme = false) in D:\xampp\htdocs\wwwpresta\controllers\admin\AdminLoginController.php:394
 Stack trace:
