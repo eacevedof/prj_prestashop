@@ -139,17 +139,28 @@ A continuación, accede a esta página mediante la nueva URL (ej.: http://presta
 - En config\themes\classic\shop1.json cambiar wwwprestashop
 - app\config\parameters.php  cambian 3 items: secret,cookie_key,cookie_iv,new_cookie_key
 - wwwprestashop en 
-    - \temp\inst_motosceni\app\cache\prod\doctrine\af\5b65735f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data
-    - \temp\inst_motosceni\app\cache\prod\ps_mainmenu\MOD_BLOCKTOPMENU_MENU_JSON_1_1.json
-    - E:\temp\inst_motosceni\app\cache\prod\smarty\cache\blockreassurance\1\1\1\6\9f\fc\00\9ffc009d1b66ea89054a8e253403b7d3a67d8150.blockreassurance.tpl.php
-    - E:\temp\inst_motosceni\app\cache\prod\smarty\cache\ps_banner\1\1\1\6\64\03\40\64034093fbda864710a2c0f526b37f921e53ee39.ps_banner.tpl.php
-    - E:\temp\inst_motosceni\app\cache\prod\smarty\cache\ps_customeraccountlinks\1\1\1\6\42\f9\46\42f9461127ce7396a601c2484841253ea5ba658f.ps_customeraccountlinks.tpl.php
-    - E:\temp\inst_motosceni\app\cache\prod\smarty\cache\ps_featuredproducts\1\1\1\6\fa\6c\c3\fa6cc378d2942c8857b89d6bca728048c0caeedd.ps_featuredproducts.tpl.php (37 hits)
-  E:\temp\inst_motosceni\app\cache\prod\smarty\cache\ps_imageslider\1\1\1\6\6c\21\08\6c2108a17c7103b6e203f4f0621d4645b56b0114.slider.tpl.php (3 hits)
-  E:\temp\inst_motosceni\app\cache\prod\smarty\cache\ps_linklist\displayFooter\1\1\1\6\90\65\48\906548e89c8c6025457ddaeffb1980a0c743b872.linkblock.tpl.php (11 hits)
-  E:\temp\inst_motosceni\app\cache\prod\smarty\cache\ps_sharebuttons\7\1\1\1\6\ce\90\8e\ce908e3af500ef88d0be39d6badc82307b6995cd.ps_sharebuttons.tpl.php (5 hits)
- E:\temp\inst_motosceni\app\cache\prod\smarty\compile\14\31\db\1431db20785d1a97607dcbe5a73ed94343fcf929.file.active_filters.tpl.php 
-
+    - app\cache\prod\doctrine\af\5b65735f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data
+    - app\cache\prod\ps_mainmenu\MOD_BLOCKTOPMENU_MENU_JSON_1_1.json
+    - app\cache\prod\smarty\cache\blockreassurance\1\1\1\6\9f\fc\00\9ffc009d1b66ea89054a8e253403b7d3a67d8150.blockreassurance.tpl.php
+    - app\cache\prod\smarty\cache\ps_banner\1\1\1\6\64\03\40\64034093fbda864710a2c0f526b37f921e53ee39.ps_banner.tpl.php
+    - app\cache\prod\smarty\cache\ps_customeraccountlinks\1\1\1\6\42\f9\46\42f9461127ce7396a601c2484841253ea5ba658f.ps_customeraccountlinks.tpl.php
+    - app\cache\prod\smarty\cache\ps_featuredproducts\1\1\1\6\fa\6c\c3\fa6cc378d2942c8857b89d6bca728048c0caeedd.ps_featuredproducts.tpl.php (37 hits)
+    - app\cache\prod\smarty\cache\ps_imageslider\1\1\1\6\6c\21\08\6c2108a17c7103b6e203f4f0621d4645b56b0114.slider.tpl.php (3 hits)
+    - app\cache\prod\smarty\cache\ps_linklist\displayFooter\1\1\1\6\90\65\48\906548e89c8c6025457ddaeffb1980a0c743b872.linkblock.tpl.php (11 hits)
+    - app\cache\prod\smarty\cache\ps_sharebuttons\7\1\1\1\6\ce\90\8e\ce908e3af500ef88d0be39d6badc82307b6995cd.ps_sharebuttons.tpl.php (5 hits)
+    - app\cache\prod\smarty\compile\14\31\db\1431db20785d1a97607dcbe5a73ed94343fcf929.file.active_filters.tpl.php 
+    - app\cache\prod\smarty\compile\63\0f\fc\630ffc345f7dcca011eda9978dd9268e4377a49d.file.facets.tpl.php (2 hits)
+    - app\cache\prod\smarty\compile\73\1e\2e\731e2e194ca6572ae0b8a89c23510c41dc24b199.file.contactform.tpl.php (2 hits)
+    - app\cache\prod\smarty\compile\layouts_layout_full_width_tpl\9e\5e\1a\9e5e1ac3ff4a0ed953aa1173138a146664ae3089.file.index.tpl.php
+    - app\cache\prod\smarty\compile\layouts_layout_full_width_tpl\ca\49\b0\ca49b0c6ae3f055366dff84db81af4d12b418d10.file.product.tpl.php (44 hits)+
+    - app\cache\prod\smarty\compile\layouts_layout_full_width_tpl\f6\7c\ab\f67cab01ba2252951831d77c377cc042129e3f1b.file.index.tpl.php (21 hits)
+    - app\cache\prod\smarty\compile\layouts_layout_full_width_tpl\ff\20\a9\ff20a9c771cd948aa7a4f4a5a28087da18e46bec.file.404.tpl.php (23 hits)
+    - app\cache\prod\smarty\compile\layouts_layout_left_column_tpl\51\94\b2\5194b288b82ff8c21983da7ef421b8a5771274d2.file.category.tpl.php (37 hits)
+    - app\cache\prod\smarty\compile\layouts_layout_left_column_tpl\89\ae\1d\89ae1d5ee2267cf6e87d87652805a8095bdb0be3.file.contact.tpl.php (21 hits)
+    - app\cache\prod\translations\ca-ES\catalogue.ca-ES.8739602554c7f3241958e3cc9b57fdecb474d508.php.meta (174 hits)
+    - app\cache\prod\translations\catalogue.es-ES.8739602554c7f3241958e3cc9b57fdecb474d508.php.meta (174 hits)
+    - app\cache\prod\translations\eu-ES\catalogue.eu-ES.8739602554c7f3241958e3cc9b57fdecb474d508.php.meta (174 hits)
+    - app\cache\prod\translations\gl-ES\catalogue.gl-ES.8739602554c7f3241958e3cc9b57fdecb474d508.php.meta (174 hits)
 ```sql
 
 -- tablas: ps_configuration
