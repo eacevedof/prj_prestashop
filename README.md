@@ -1,6 +1,9 @@
 # prj_prestashop
 Pruebas de prestashop 1.7.3.0
 
+## Desarrollo
+1. [v1.7 - Crear módulo](https://developers.prestashop.com/module/05-CreatingAPrestaShop17Module/02-CreatingAFirstModule.html#id1)
+
 ### Indice tutorial Prestashop 1.7.3
 #### [Video: TUTORIAL DE PRESTASHOP 2018 EN ESPAÑOL - PARTE 1 - Yoney Gallardo](https://www.youtube.com/watch?v=m99RwBiucP4)
 
@@ -199,3 +202,5 @@ OR request_uri LIKE '%presta:8000%'
 Incluyo TheFramework/*
 
 Error al editar un producto: https://www.prestashop.com/forums/topic/563074-can-only-edit-save-products-sometimes/#comment-2429096
+
+Url amigables: 
