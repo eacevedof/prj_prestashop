@@ -3,8 +3,11 @@ Pruebas de prestashop 1.7.3.0
 
 ## Desarrollo
 1. [v1.7 - Crear módulo](https://developers.prestashop.com/module/05-CreatingAPrestaShop17Module/02-CreatingAFirstModule.html#id1)
-    1. crear carpeta en: /modules/<print_ticket>
-    2. crear archivo dentro de esa carpeta: print_ticket.php
+    1. crear carpeta en: /modules/printticket (no vale espacios ni caracteres especiales)
+    2. crear archivo dentro de esa carpeta: printticket.php
+    3. defino clase tipo `class PrintTicket extends Module`
+    4. defino métodos básicos: `construct(), install(), uninstall()`
+    5. deberia aparecer en `módulos > selección`
 
 ### Indice tutorial Prestashop 1.7.3
 #### [Video: TUTORIAL DE PRESTASHOP 2018 EN ESPAÑOL - PARTE 1 - Yoney Gallardo](https://www.youtube.com/watch?v=m99RwBiucP4)
