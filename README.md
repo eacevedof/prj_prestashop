@@ -7,6 +7,8 @@ Pruebas de prestashop 1.7.3.0
     2. crear archivo dentro de esa carpeta: printticket.php
     3. defino clase tipo `class PrintTicket extends Module`
     4. defino métodos básicos: `construct(), install(), uninstall()`
+        1. `need_instance` indica si se debe cargar la clase al listar los módulos. 
+            Esto esta bien si el módulo requiere una configuración despues haber sido instalado 
     5. deberia aparecer en `módulos > selección`
 
 ## ps_configuration
