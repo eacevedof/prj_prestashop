@@ -1,4 +1,5 @@
 <?php
+pr("/controllers/admin/AdminProductsController.php");
 /**
  * 2007-2017 PrestaShop
  *
