@@ -62,9 +62,11 @@ function userErrorHandler($errno,$errmsg,$filename,$linenum,$vars)
 }//userErrorHandler
 
 include_once dirname(__FILE__)."/vendor/theframework/bootstrap.php";
+die("die index");
 require(dirname(__FILE__).'/config/config.inc.php');
+bugif();die;
 Dispatcher::getInstance()->dispatch();
-
+bugif();
 //@eaf
 use TheFramework\Components\ComponentDebug;
 if(class_exists("TheFramework\Components\ComponentDebug") && defined("TFW_DEBUG") && TFW_DEBUG==1)
