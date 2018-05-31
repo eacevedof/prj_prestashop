@@ -97,6 +97,7 @@ try {
     Dispatcher::getInstance()->dispatch();
 }
 
+bugif();
 //@eaf
 use TheFramework\Components\ComponentDebug;
 if(class_exists("TheFramework\Components\ComponentDebug") && defined("TFW_DEBUG") && TFW_DEBUG==1)
