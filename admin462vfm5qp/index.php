@@ -83,6 +83,7 @@ $kernel->loadClassCache();
 // When using the HttpCache, you need to call the method in your front controller instead of relying on the configuration parameter
 //Request::enableHttpMethodParameterOverride();
 $request = Request::createFromGlobals();
+bug($request,"request");die;
 try {
     $response = $kernel->handle($request, HttpKernelInterface::MASTER_REQUEST, false);
     $response->send();
@@ -97,7 +98,9 @@ try {
     Dispatcher::getInstance()->dispatch();
 }
 
-bugif();
+//bugss();
+//bugpg();
+//bugif();
 //@eaf
 use TheFramework\Components\ComponentDebug;
 if(class_exists("TheFramework\Components\ComponentDebug") && defined("TFW_DEBUG") && TFW_DEBUG==1)
