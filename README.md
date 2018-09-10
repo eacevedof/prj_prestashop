@@ -581,3 +581,100 @@ Incluyo TheFramework/*
 Error al editar un producto: https://www.prestashop.com/forums/topic/563074-can-only-edit-save-products-sometimes/#comment-2429096
 
 Url amigables: 
+
+```ssh
+<project>/
+    admin1234/
+        public/
+            bundle.js
+        themes/
+            default/
+                css/
+                fonts/
+                img/
+                js/
+                public/
+                sass/
+                template/
+                    controllers/
+                        <carpetas de módulos>/
+                            <helpers>/
+                                <view>/
+                        customers/
+                            helpers/
+                                list/
+                                    list_header.tpl
+                                view/
+                                    view.tpl
+                                required_fields.tpl
+                        addresses/
+                            helpers/
+                                form/form.tpl
+                                list/list_header.tpl
+                        orders/
+                            helpers/
+                                list/
+                                view/
+                            *.tpl
+                                
+                    helpers/
+                        <carpetas>/
+                            *.tpl
+            new-theme/
+                css/
+                    module/
+                        drop.css
+                    right-sidebar.css
+                js/
+                    app/
+                        pages/
+                            stock/
+                                components/
+                                    header/
+                                        filters/
+                                        *.vue
+                                    movements/
+                                        *.vue
+                                    overview/
+                                    app.vue
+                                mixins/
+                                router/
+                                store/
+                                    *.js
+                                index.js
+                        store/
+                        test/unit/
+                        utils/
+                        widgets/
+                    product-page/
+                    transalation-page/
+                    *.js
+                public/
+                    <items for bundle>
+                scss/
+                template/
+                    controllers/
+                        modules/
+                            login_addons.tpl
+                *.js
+    classes/
+        <carpetas>/
+        module/
+        order/
+        assets/
+        checkout/
+        controller/
+        //clases que usan Symfony y PrestaShopBundle
+        clases-sin-ns-*.php
+        
+    modules/
+        <carpetas-nombre-modulo>/
+            nombre-modulo.php
+        
+    vendor/
+        prestashop/
+            decimal/src/
+            smarty/
+            translationtools-bundle/
+        symfony/
+```
