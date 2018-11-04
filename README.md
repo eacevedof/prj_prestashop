@@ -63,7 +63,12 @@ PROCEDURE `db_prestashop`.`prc_todev`(
 BEGIN
     /*
     Author: Eduardo A. F.  eacevedof@gmail.com
-    Sorce: https://github.com/eacevedof/prj_prestashop/blob/master/README.md
+    Source: https://github.com/eacevedof/prj_prestashop/blob/master/README.md
+    Use case:
+    You have your ps database in production and want a copy in staging or in localhost
+    You restore prod database and run this stored procedure so it changes root urls
+
+    Some tips:
     https://stackoverflow.com/questions/11754781/how-to-declare-a-variable-in-mysql
     user defined variables prefixed with @ van por sesion
     local variables como parametros o dentro de una función
