@@ -47,6 +47,97 @@ AND http_referer LIKE '%presta:8000%'
 OR request_uri LIKE '%presta:8000%'
 ```
 
+## Lo anterior en un procedimiento:
+```sql
+DELIMITER $$
+
+-- USE `db_prestashop`$$
+
+DROP PROCEDURE IF EXISTS `prc_todev`$$
+
+CREATE DEFINER=`root`@`localhost` 
+PROCEDURE `db_prestashop`.`prc_todev`(
+    sNewdomain VARCHAR(100)
+    ,sPrefix VARCHAR(50)
+    )
+BEGIN
+    /*
+    Author: Eduardo A. F.  eacevedof@gmail.com
+    Sorce: https://github.com/eacevedof/prj_prestashop/blob/master/README.md
+    https://stackoverflow.com/questions/11754781/how-to-declare-a-variable-in-mysql
+    user defined variables prefixed with @ van por sesion
+    local variables como parametros o dentro de una función
+    server variables @@
+    */
+    -- DECLARE sDomainProd VARCHAR(100) DEFAULT '';
+    DECLARE sSQL1 VARCHAR(200);
+    DECLARE sSQL2 VARCHAR(200); 
+    DECLARE sSQL3 VARCHAR(200);
+    DECLARE sSQL4 VARCHAR(200); 
+    -- DECLARE sExecute VARCHAR(2000);
+
+    -- valores por defecto
+    -- IF(sNewdomain='') THEN SET sNewdomain := 'myproddomain.com:8000'; END IF;
+    IF(sPrefix='') THEN SET sPrefix := 'ps'; END IF;
+
+    -- dominio o ip de produccion
+    SET sPrefix := CONCAT(' ',sPrefix,'_');
+
+    -- CONSULTAS:
+    SET sSQL1 := CONCAT(
+    'UPDATE ',sPrefix,'configuration '
+    ,'SET value = \'',sNewdomain,'\' '
+    ,'WHERE 1=1 '
+    ,'AND NAME IN (\'PS_SHOP_DOMAIN\',\'PS_SHOP_DOMAIN_SSL\')'
+    );
+
+    SET sSQL2 := CONCAT(
+    'UPDATE ',sPrefix,'shop_url '
+    ,'SET domain = \'',sNewdomain,'\' '
+    ,'WHERE 1=1 '
+    ,'AND id_shop_url=1 AND id_shop=1 '
+    );
+
+    SET sSQL3 := CONCAT(
+    'UPDATE ',sPrefix,'shop_url '
+    ,'SET domain_ssl = \'',sNewdomain,'\''
+    ,'WHERE 1=1 '
+    ,'AND id_shop_url=1 AND id_shop=1 '
+    );
+
+    SET sSQL4 := CONCAT('TRUNCATE TABLE ',sPrefix,'connections_source');
+    -- variable de sesion   
+    SET @sSQL := sSQL1;
+    PREPARE sExecute FROM @sSQL;
+    EXECUTE sExecute; 
+    
+    SET @sSQL := sSQL2;
+    PREPARE sExecute FROM @sSQL;
+    EXECUTE sExecute;   
+    
+    SET @sSQL := sSQL3;
+    PREPARE sExecute FROM @sSQL;
+    EXECUTE sExecute;          
+    
+    SET @sSQL := sSQL4;
+    PREPARE sExecute FROM @sSQL;
+    EXECUTE sExecute;    
+        
+    DEALLOCATE PREPARE sExecute;
+    
+    SET @sSQL := CONCAT(sSQL1,';\n',sSQL2,';\n',sSQL3,';\n',sSQL4,';\n');    
+    SELECT CONCAT('/**result:**/ ','\n'
+    ,'
+    SELECT * FROM ',sPrefix,'shop_url;
+    SELECT * FROM ',sPrefix,'configuration WHERE 1=1 AND NAME IN (\'PS_SHOP_DOMAIN\',\'PS_SHOP_DOMAIN_SSL\');
+    ',@sSQL) r;
+
+    -- CALL db_prestashop.prc_todev('myproddomain.com:8000','cni');
+END$$
+
+DELIMITER ;
+```
+
 ### Indice tutorial Prestashop 1.7.3
 #### [Video: TUTORIAL DE PRESTASHOP 2018 EN ESPAÑOL - PARTE 1 - Yoney Gallardo](https://www.youtube.com/watch?v=m99RwBiucP4)
 
