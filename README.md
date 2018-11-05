@@ -1,6 +1,7 @@
 # prj_prestashop
 Pruebas de prestashop 1.7.3.0
 
+
 ## Desarrollo
 1. [v1.7 - Crear módulo](https://developers.prestashop.com/module/05-CreatingAPrestaShop17Module/02-CreatingAFirstModule.html#id1)
     1. crear carpeta en: /modules/printticket (no vale espacios ni caracteres especiales)
